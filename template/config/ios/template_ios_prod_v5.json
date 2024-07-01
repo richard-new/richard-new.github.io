@@ -1,0 +1,146 @@
+{
+  "base": {
+    "all.app.urls":{
+      "menu":"${cdnServer}/assets/menu/menu_prod_v2.json",
+      "localization":"${cdnServer}/assets/localization/localization_v2_en.string",
+      "stsToken":"${apiServer}/sts/v1/oauth/jwtsignin",
+      "tveToken":"${apiServer}sts/v1/oauth/tvesignin",
+      "deleteAccount":"${websiteUrl}/support",
+      "devicelink":"${websiteUrl}/account?section=deviceManagement",
+      "adobelink":"${websiteUrl}/activate",
+      "adobeConfig":"${cdnServer}/assets/logos/mvpd/adobeconfig.json",
+      "redirectUrl":"${apiServer}?oauth%3Dgenericendusers%26tenant%3Ddefault"
+    },
+    "all.app.settings": {
+      "debugLog": false,
+      "useAirPlay": true,
+      "timezone": "America/New_York",
+      "timezone_format": "default",
+      "server_timezone": "America/New_York",
+      "display_timezone": "default",
+      "timezone_suffix": "",
+      "appServer": "https://rest-prod-marquee.evergent.com/marquee",
+      "personalServer": "https://rest-prod-marquee.evergent.com/marquee",
+      "apiServer": "https://ottapp-appgw-client-a.proda.msn.tv3cloud.com",
+      "playerServer": "https://ottapp-appgw-amp-a.proda.msn.tv3cloud.com/",
+      "cdnServer": "https://neulion-a.akamaihd.net/nlmobile/marquee",
+      "websiteUrl":"https://watchmarquee.com",
+      "tenant_id": "default",
+      "apiUser": "MQEndapiuser",
+      "apiPassword": "MQE@12345678900987654321pwrdendr",
+      "channelPartnerID": "MRQU",
+      "dmaID": "001",
+		  "enableAutoRefreshToken":true,
+      "autoRefreshTokenAheadSeconds": 300,
+      "allowTveBindExistDtcNoSubUser": true
+
+    },
+    "all.app.jsparams":{
+      "liveEventAheadMinuts": 90,
+      "pageSize": 10,
+       "browseHubId": "84de92dd-5bf8-4b23-a14e-6df986472299",
+       "heroHubId": "1ad86f5a-c5d4-41de-89c0-2819b56fa01e",
+       "videoHubId": "2fa8abd7-8c6e-4a6d-813d-00b2e1ced795",
+       "videoHubFeedId": "5c007e74-7820-49df-b7dc-a58155b5310c"
+    },
+    "all.app.greeting": {
+      "enabled": false,
+      "title": "Marquee Sports App",
+      "message": "This app has a required update.  Please go to the App Store to download the latest version.",
+      "forceUpgrade": false,
+      "upgradeUrl": "https://itunes.apple.com/app/id1497058186"
+    },
+    "all.app.info": {
+      "url": "https://www.endeavorstreaming.com",
+      "advInfo": true,
+      "email": {
+        "enable": true,
+        "to": "contact@marqueesportsnetwork.com",
+        "subject": "Marquee Sports App Support Request"
+      }
+    },
+    "all.app.share": {
+      "subject":"A cool video [${programName}] to share with you!",
+      "content":"I am watching ${programName} using ${appName} app.\r\n ${programDesc}. \r\nYou can download it or watch the videos on its website: \r\n ${locServer}/#!player?id=${programId}",
+      "link":"${locServer}",
+      "game": "I'm watching on Marquee Sports. \r\n ${appServer}/game/${seoName}",
+      "program": "I'm watching on Marquee Sports. \r\n ${appServer}/video/${seoName}",
+      "channel": "I'm watching on Marquee Sports. \r\n ${appServer}/channel/${seoName}",
+      "news": "I'm watching on Marquee Sports. \r\n ${link}"
+    },
+    "all.app.test": {
+      "inoutMarket": {
+          "enabled": false,
+          "limitto": []
+      }
+    },
+    "all.app.purchase":{
+      "keepRawJSON": true,
+      "isStore": false,
+      "skuFormat": "lowercase",
+      "descFromStore": true,
+      "priceFromStore": true,
+      "mobileSupportSKUs": ".*mrqu_premium_monthly.*|.*mrqu_premium_annual.*",
+      "subSKUs": ".*annual.*|.*monthly.*",
+      "ppvSKUs": ".*SINGLEGAME.*",
+      "freeSKUs": ".*FREESKU.*",
+      "holderSKUs": {
+        "mrqu_premium_annual": "annual",
+        "mrqu_premium_monthly": "monthly",
+        "BWEEKLY": "",
+        "BAPMONTHLY": "",
+        "BNEWWEEKLY": ""
+      },
+      "consumableSKUs": [
+        {
+          "rule": ".*BLPPDAY.*",
+          "expireDate": "259200"
+        }
+      ],
+      "store": {
+        "validSKUs": ".*\\.2023\\..*",
+        "skuRule": "com.marqueesports.prod.apple.${sku}",
+        "skuRuleSub": "com.marqueesports.prod.apple.${skuHolder}",
+        "skuRulePPV": "com.marqueesports.prod.apple.${sku}",
+        "shareSecret": "7bb44e9e1ce446fcaf8b93377a13e297"
+      },
+      "dev": {
+        "validSKUs": ".*\\.2023\\..*",
+        "skuRule": "com.marqueesports.prod.apple.${sku}",
+        "skuRuleSub": "com.marqueesports.prod.apple.${skuHolder}",
+        "skuRulePPV": "com.marqueesports.prod.apple.${sku}",
+        "shareSecret": "7bb44e9e1ce446fcaf8b93377a13e297",
+        "base64EncodedPublicKey": "xxxx, only for android"
+      }
+    },
+    "all.app.chromecast": {
+      "enabled": true,
+      "appId": "5A468DEE"
+    },
+    "all.app.gma": {
+      "enabled": true,
+      "appId": "ca-app-pub-9105091413603416~6669544340"
+    },
+    "all.app.interval": {
+      "default": 300,
+      "accessToken": 5400,
+      "games": 60,
+      "gameDetail": 300,
+      "programDetail": 120,
+      "scoreboard": 30,
+      "liveEvents": 120,
+      "schedule": 300,
+      "config": 28800,
+      "timestamp": 10,
+      "pcmOffset": 50
+    }
+  },
+  "locale": {
+    "country": {
+    },
+    "language": {
+    },
+    "platforms": {
+    }
+  }
+}

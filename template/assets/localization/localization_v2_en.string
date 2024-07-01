@@ -1,0 +1,856 @@
+#Version:23.0919
+#AppService
+app.core.authentication.loginsuccess = You have signed in successfully!
+app.core.authentication.loginfailed = We were unable to verify your email/password. Please verify your account details and try again or reset your password.
+app.core.authentication.logindisabled = Your account has been disabled.  Please contact customer support for assistance.
+app.core.authentication.loginlocked = Account is locked. Please contact customer support or click forgot password to reset your password.
+app.core.authentication.loginnotfound = We were unable to verify this email.  Please enter your email.
+app.core.authentication.loginexpired = Your account has expired.  Please contact customer support for assistance.
+app.core.authentication.failedlimit = You cannot link your account since you have too many devices linked to this account or you've already linked this device under a different email.  Please contact customer support for assistance.
+app.core.authentication.failedconnectnoaccess = Failed to link device.  A subscription is required for device linking.
+app.core.authentication.connectnoaccess = Failed to link device.  A subscription is required for device linking.
+app.core.authentication.connectfailednoaccess = Failed to link device.  A subscription is required for device linking.
+
+app.core.devicelinking.loginsuccess = You have been signed in successfully!
+app.core.devicelinking.loginfailed = We were unable to verify your email/password. Please verify your account details and try again or reset your password.
+app.core.devicelinking.logindisabled = Your account has been disabled.
+app.core.devicelinking.loginlocked = Account is locked. Please contact customer support or click forgot password to reset your password.
+app.core.devicelinking.loginnotfound = We were unable to verify this email. Please enter the email address which you registered.
+app.core.devicelinking.loginexpired = Your account has expired.
+app.core.devicelinking.failedlimit = You cannot link your account since you have too many devices linked to this account or you've already linked this device under a different email.  Please contact customer support for assistance.
+app.core.devicelinking.failedconnectnoaccess = Failed to link device due to authorization rules, such as a subscription is required for device linking.
+app.core.devicelinking.failedconnect = Failed to link device.
+app.core.devicelinking.connectnoaccess = Failed to link device due to authorization rules, such as a subscription is required for device linking.
+app.core.devicelinking.connectfailednoaccess = Failed to link device due to authorization rules, such as a subscription is required for device linking.
+app.core.deviceunlink.updatesuccess = Device unlink successful.
+
+app.core.endsession.updatesuccess = You have successfully signed out.
+app.core.endsession.logout = You have successfully signed out.
+app.core.deviceunlink.failedtoken = Your account has expired.
+app.core.logoutfailed = We were unable to log you out.
+app.core.applypptcredit.noaccess = You must login to redeem Game Choice credits.
+app.core.applypptcredit.failedorder = We were unable to apply your Game Choice credits.
+app.core.resetpassword.resetpasswordsent = Your reset password request has been sent.  Please check your email including spam folders for link to reset your password.
+app.core.resetpassword.failednoemail = Your email address was not found.  Please check the Email and try again.
+app.core.resetpassword.loginnotfound = We were unable to verify this email. Please enter the email address which you registered.
+app.core.register.registered = You have successfully registered.
+app.core.register.failedage = Sorry, you do not meet the minimum requirements for Marquee Sports's registration.
+app.core.register.useralreadyexists = The email already exists. Please choose another one or Sign In.
+app.core.register.failedbillingaddressstate = The country and state in the billing address do not match. Please re-enter them.
+app.core.register.failedcontactaddressstate = The country and state in the contact address do not match. Please re-enter them.
+app.core.register.failedappleverify = Your In-App Purchase receipt was not validated by Apple.
+app.core.register.failedappleconnection = We currently cannot connect to Apple to validate the receipt.
+app.core.register.failedcardexpired = The credit card you entered has expired. Please use another card or contact customer support.
+app.core.register.emailalreadyexists = Email already exists.
+app.core.register.failedfirstname = First name invalid.
+app.core.register.failedlastname = Last name invalid.
+app.core.register.failedtoken = Login failed.
+app.core.register.xxxx = Login failed.
+
+app.core.purchase.registered = You have successfully registered with your purchase.
+app.core.purchase.subscribedsuccess = You have successfully  subscribed.
+app.core.purchase.failedappleverify = Your In-App Purchase receipt cannot be validated by Apple.
+app.core.purchase.failedappleconnection = The server cannot connect to Apple to validate the receipt.
+app.core.purchase.failedproductinvalid =  The purchased product is invalid.  Please select again.
+app.core.purchase.failedcardunsupported = The credit card does not support the currency of purchase.
+app.core.purchase.failedbillingaddressrequired = The billing address is required.
+app.core.purchase.failedcardrequired =  Credit card is required.
+app.core.purchase.failedcardinvalid = Your credit card is invalid.
+app.core.purchase.failedpromo = The promotion code is invalid.
+app.core.purchase.failedpayment = There was an error processing payment using the payment option you supplied. Please use a different credit card and try again. If you need further help with your purchase, please contact customer support.
+app.core.purchase.failedorder = Your purchase failed.
+app.core.purchase.failedhassubscription = You have already purchased this video, event, or subscription.  If you need further help with your purchase, please contact customer support.
+
+#appmediaplayer
+app.player.loading = Loading...
+app.player.live = LIVE
+app.player.error = This video is currently unavailable. Please try again later.
+app.player.message = NeuLion Android Player
+app.player.retry = Retry
+app.player.connection = Connection Enabled
+app.player.advertisementstop = STOP
+app.player.selectorbitrateauto = AUTO
+app.player.selectorbitratesuffix = kbps
+app.player.selectoraudiostreamtitleformat = Audio %1$s: %2$s
+app.player.seekgroupseparator = /
+app.player.visitadvertiser = Visit advertiser
+app.player.subtitlesoff = Off
+app.player.closedcaptionname = CC
+app.player.upnext = UP NEXT:
+app.player.channelMore = SWIPE FOR CHANNELS
+app.player.programMore = SWIPE FOR MORE
+
+app.player.videoquality = QUALITY
+app.player.audiotrack = AUDIO
+app.player.texttrack = SUBTITLES&CC
+app.player.texttrackoff = off
+app.player.texttrackcc = CC
+app.player.trackauto = AUTO
+app.player.trackdefault = default
+app.player.playbackspeedsuffix = X
+app.player.progresscontrolseconds = seconds
+app.player.fastforwardrewindsuffix = s
+app.player.error.couchrights = You reached the maximum 30 days travel rights when out of region. Please login when you are back in region.
+app.player.error.couchrights.outmarket = You are out of region and exceed the Couch Rights limitation. Please login when you are back in region.
+app.player.error.couchrights.devicesexceeded = You are out of region and exceed the devices limitation.
+app.player.error.couchrights.daysexceeded = You reached the maximum 30 days travel rights when out of region.
+app.player.error.couchrights.null = Couch Rights is not available.
+app.player.error.couchrights.unknown = Unknown error.
+app.player.error.couchrights.limit = You are out of region and exceed the Couch Rights limitation. Please login when you are back in region.
+app.player.continue = Continue
+app.player.restart = Restart
+
+app.player.error.default = The video is currently unavailable. Please try again later ${errorCode}:${errorMessage}
+app.player.error.4-62-3098 = Stream limit exceeded, please remove your other devices, then try again.
+app.player.error.4-62-7029 = You reached the maximum 30 days travel rights when out of region. Please login when you are back in region.
+app.player.error.4-62-7030 = You are out of region and exceed the Couch Rights limitation. Please login when you are back in region
+
+#UI Label & Button
+app.ui.close = Close
+app.ui.cancel = Cancel
+app.ui.confirmexit = Are you sure you want to exit?
+app.ui.confirmdelete = Are you sure you want to delete?
+app.ui.dismiss = Dismiss
+app.ui.delete = Delete
+app.ui.next = Next
+app.ui.previous = Previous
+app.ui.reorder = Reorder
+app.ui.edit = EDIT
+app.ui.error = Error
+app.ui.alert = Alert
+app.ui.ok = OK
+app.ui.on = ON
+app.ui.off = OFF
+app.ui.open = OPEN
+app.ui.unavailable = Unavailable
+app.ui.true = true
+app.ui.false = false
+app.ui.yes = YES
+app.ui.no = NO
+app.ui.stop = STOP
+app.ui.continue = CONTINUE
+app.ui.skip = SKIP
+app.ui.done = DONE
+app.ui.retry = Retry
+app.ui.reconnect = Reconnect
+app.ui.warning = Warning
+app.ui.welcome = WELCOME
+app.ui.wait = Please wait...
+app.ui.quitapp = Quit App
+app.ui.exitapp = Exit App
+app.ui.updatenow = Get It Now
+app.ui.install = INSTALL
+app.ui.default = Default
+app.ui.information = INFORMATION
+app.ui.nothanks = No, Thanks
+app.ui.sendtofriend = Send to Friend
+app.ui.copyurl = Copy URL
+app.ui.opensafari = Open in Safari
+app.ui.openchromekey = Open in Chrome
+app.ui.message = Message
+app.ui.twitter = Twitter
+app.ui.seeall = See All
+app.ui.text.status.drv = Live
+app.ui.text.status.live = Live
+app.ui.text.status.upcoming = Upcoming
+app.ui.text.status.final = FINAL
+app.ui.text.status.unavailable = Unavailable
+app.ui.text.status.pending = Pending
+
+
+#UI App Info
+app.appinfo.title = App Info
+app.appinfo.infoversion = App Version
+app.appinfo.infobuildnumber = Build Number
+app.appinfo.infoplayerversion = Player Version
+app.appinfo.infodeviceid = Device ID
+app.appinfo.infoserialnumber = Serial Number
+app.appinfo.infohardwaremodel = Hardware Model
+app.appinfo.infomanufacturer = Manufacturer
+app.appinfo.infodevicetype = Device Type
+app.appinfo.infosystemver = System Info
+app.appinfo.infocarrier = Carrier
+app.appinfo.infocarrier.noprovider = No Provider
+app.appinfo.infonetwork = Network Operator
+app.appinfo.infolocation = Location
+app.appinfo.infoipaddress = IP Address
+app.appinfo.infosubscription = Subscription
+app.appinfo.inforlocation = Resolved Location
+app.appinfo.infodevicetoken = Notification Token
+app.appinfo.infolocationservice = Location Service
+app.appinfo.infolocationservice.disabled = Disabled
+app.appinfo.infonotification = Notification
+app.appinfo.sentusemail = Send Email
+app.appinfo.drminfo = Drm Info
+
+app.drminfo.title = Drm Info
+
+app.drminfo.systembrand = Brand
+app.drminfo.systemhardware = Hardware
+app.drminfo.systemtype = Type
+app.drminfo.systemdisplay = Display
+app.drminfo.systemfingerprint = Fingerprint
+app.drminfo.systemsdklevel = SDK Level
+app.drminfo.systemsupportabi = Support Abi
+
+app.drminfo.widevinecdm = WideVine CDM
+app.drminfo.widevinevendor= Vendor
+app.drminfo.widevineversion= Version
+app.drminfo.widevinedescription= Description
+app.drminfo.widevinealgorithms= Algorithms
+app.drminfo.widevinesecuritylevel= Security Level
+app.drminfo.widevinesystemid= System ID
+app.drminfo.widevineprivacymode= Privacy Mode
+app.drminfo.widevinesessionsharing= Session Sharing
+app.drminfo.widevineusagereportingsupport= Usage Reporting Support
+app.drminfo.widevineappid= App Id
+app.drminfo.widevineorigin= Origin
+app.drminfo.widevinehdcplevel= HDCP Level
+app.drminfo.widevinemaxhdcplevel= Max HDCP Level
+app.drminfo.widevinemaxnumberofsessions = Max Number Of Sessions
+
+app.drminfo.widevinedeviceuniqueid= Device Unique Id
+app.drminfo.widevineprovisioninguniqueid= Provisioning Unique Id
+app.drminfo.widevineservicecertificate= Service Certificate
+
+
+#Error Message
+app.message.failedgeo = This application is currently unavailable in your area.
+app.message.failedgeo.ext = This application is currently unavailable in your area.
+app.message.contentunavailable = This content is currently unavailable in your area.
+app.message.contentblackout = You are in a blackout area and cannot view the content from this location.
+app.message.offline = You're Off-Line Right Now.\nIt requires a connection to the Internet. Please turn off Airplane Mode or connect via WiFi or Cellular network.
+app.message.offlinetoast = YOU ARE CURRENTLY OFFLINE.
+app.message.offlinemidway = You are currently offline. Some content may be updated or not accessible.
+app.message.accountnoaccess = Your account does not have access to this content, please visit our website.
+app.message.sessionkickoff = Your account login in another device.
+app.message.sessiontimeout = This account is in use on another device, please make sure this user account is not signed in to any other mobile devices or the PC application.
+app.message.unknow = Unknown error
+app.message.videounavailable = The video is currently unavailable.
+app.message.connectfailed = Connect failed. Please try again later.
+app.message.connectfailed.ext = Connect failed. Please try again later. [${feed}, ${httpCode}]
+app.message.fetchppterror = The video is currently unavailable. Please try again later.
+app.message.noactivesubscription = Your account does not have a valid subscription.
+app.message.network.error = Network Error
+app.message.fetchdataerror = Fetch data failed. Please try later.
+app.message.configfailed.ext = Fetch config failed. Please try later. [${httpCode}]
+app.message.menufailed.ext = Fetch menu failed. Please try later. [${httpCode}]
+app.message.videoserviceerror.ext = Service request error. Please try later. [${httpCode}]
+
+#Common Message
+app.message.exitapplication = Press again to exit the Application.
+app.message.turnonremotenotify = Please turn on system notification first.
+app.message.signinhintheader = YOUR SPORTING WORLD AWAITS - SIMPLY SIGN IN
+app.message.signoutfailed = Sorry, you can't sign out currently.
+app.message.signoutsuccess = You have been signed out successfully!
+app.message.upcominggamealert = This Game Has Not Started Yet.
+app.message.setupemail = Please setup your email account first before sending the app information.
+
+#No Data Message
+app.message.networkerrortitle = Check Back Later
+app.message.retry = Tap to retry
+app.message.nodatatitle = Check Back Later
+app.message.networkerrortitle = Check Back Later
+app.message.networkerrormsg = Not connected to the internet\nPlease check your connection and try again.
+app.message.myteamsnodataerrormsg = No games are available at this time for your favorite team(s). Check back later.
+app.message.nocontent = No content is available at this time.\nPlease check back later.
+app.message.nogamesscheduled = No Games Scheduled.
+app.message.serverisnotavailable = Server is not available now, Please check back later.
+
+#app share message
+app.share.program = I'm watching "${title}" on my Marquee Sports mobile app! https://${websiteUrl}/video/${seoName}.
+
+#app greeting
+app.app.greeting.title = Marquee Sports
+app.app.greeting.message = This app needs a required update. Please go to the App Store and update the App to the latest version.
+app.app.greeting.exitapp = QUIT APP
+app.app.greeting.updatenow = GET IT NOW
+app.app.greeting.nothanks = NO, THANKS
+app.app.greeting.ok = OK
+
+app.app.info.subject = Marquee Sports Mobile Feedback
+
+#Botton Menu
+app.menu.home = BROWSE
+app.menu.games = Games
+app.menu.channels = ON NOW
+app.menu.categories = Categories
+app.menu.highlights = Highlights
+app.menu.videos = Features
+app.menu.more = More
+
+#More Menu
+app.menu.privacy = PRIVACY POLICY
+app.menu.tos = TERMS & CONDITIONS
+app.menu.copyrights = COPYRIGHTS
+app.menu.support = SUPPORT
+app.menu.appinfo = APP INFO
+
+
+#Login page
+app.login.title = SIGN IN WITH\n MARQUEE SPORTS NETWORK ACCOUNT
+app.login.signin = SIGN IN
+app.login.forgot = Forgot Password?
+app.login.username = Email
+app.login.password = Password
+app.login.validate.usernameempty = Email address is required.
+app.login.validate.usernameinvalid = Please enter a valid email address.
+app.login.validate.passwordempty = Please enter Password.
+app.login.validate.passwordinvalid = Your password must be at least 6 characters, please try again.
+app.login.or = OR
+app.login.google = Continue with Google
+app.login.facebook = Continue with Facebook
+app.login.apple = Continue with Apple
+app.login.rememberme = Remember me
+
+app.login.device.prefix = On your computer or mobile device, go to
+app.login.device.linkUrl = watchmarquee.com/account?section=deviceManagement
+app.login.device.suffix = Enter the code below and sign in.
+
+#Forgot Password page
+app.forgot.title = Forgot Password
+app.forgot.description = Please enter the email that you registered with,and click on 'Send Password' to receive an email with your password.
+app.forgot.sendemail = Send Password
+app.forgot.email = Email Address
+app.forgot.validate.emailempty = Email Address is required to send you a Forgot Password link. Please enter your email and try again.
+app.forgot.validate.emailinvalid = Please enter a valid email.
+app.forgot.submit = SUBMIT
+
+app.core.resetpassword.resetpasswordsent = Your reset password request has been sent.  Please check your email including spam folders for link to reset your password.
+app.core.resetpassword.failednoemail = Your email address was not found.  Please check the email and try again.
+app.core.resetpassword.loginnotfound = We were unable to verify this email. Please enter the email address which you registered with Marquee Sports.
+
+#Register page
+app.register.title = CREATE PROFILE
+app.register.register = REGISTER
+app.register.description = IT’S QUICK AND EASY
+app.register.receivenews = Never miss a moment! Share your email to receive our newsletter and updates.
+app.register.agreeterms = By signing up, you confirm that you are 13 years or older and you accept our<br/><br/> <a href%3d'${tosUrl}'>Terms of Use</a> and <a href%3d'${privacyUrl}'>Privacy Policy</a>.
+app.register.agreeterms.prefix = By signing up, you confirm that you are 13 years or older and you accept our
+app.register.agreeterms.termsofuse = Terms of Use
+app.register.agreeterms.and = and
+app.register.agreeterms.privacypolicy = Privacy Policy
+app.register.agreeterms.termsandconditions = Terms and Conditions
+app.register.agreeterms.termsofuseandprivacypolicy = Terms of Use and Privacy Policy
+
+app.register.username = Display Name
+app.register.email = Email
+app.register.password = Password
+app.register.confirmpassword = Confirm Password
+app.register.firstname = First Name
+app.register.lastname = Last Name
+app.register.month = Month
+app.register.day = Day
+app.register.year = Year
+app.register.dateofbirth = Date of Birth
+app.register.gender = Gender (optional)
+app.register.validate.firstnameempty = First name is required.
+app.register.validate.firstnameinvalid = Please enter a valid First name.
+app.register.validate.lastnameempty = Last name is required.
+app.register.validate.lastnameinvalid = Please enter a valid Last name.
+app.register.validate.usernameempty = Display name is required.
+app.register.validate.usernameinvalid = Please enter a valid Display name.
+app.register.validate.usernameexist = The User name is unavailable, please choose another User name.
+app.register.validate.emailempty = Email address is required.
+app.register.validate.emailinvalid = Please enter a valid Email Address.
+app.register.validate.emailexist = The email already exists, please choose another email.
+app.register.validate.passwordempty = Please enter Password.
+app.register.validate.passwordinvalid = Your password must be at least 6 characters, please try again.
+app.register.validate.confirmpasswordempty = Confirm password is required.
+app.register.validate.confirmpasswordinvalid = Password and confirmation password do not match.
+app.register.validate.dateempty = Date is required.
+app.register.validate.dateinvalid = You do not meet the minimum requirements for Marquee Sports's registration.
+app.register.validate.notagreetos = You must read and accept the Terms of Use, then check the 'Terms of Use' checkbox.
+app.register.steptitle = Step 1 of 3: Create Profile
+app.register.skip = SKIP
+app.register.steptip = Step %1$d of %2$d
+app.register.useralreadyexists = The email address or user id is already in use. Please choose a unique email address and username.
+
+app.register.signup = Sign Up
+app.register.signin = Sign In
+
+#Landing Page
+app.landing.title = PURCHASE A PLAN
+app.landing.description = Watch all your favourite sports and events anytime, anywhere.
+app.landing.linkaccount.title = THANK YOU FOR YOUR PURCHASE
+app.landing.linkaccount.noaccountdescription = You need a Marquee Sports account to enjoy the action on other devices, including your PC.
+app.landing.linkaccount.description = You must link a Marquee Sports account to enjoy the action on other devices, including your PC.
+app.landing.linkaccount.noaccountcontent = Create an Marquee Sports account or Sign In to link your purchase now.
+app.landing.linkaccount.linkfailedcontent = Welcome, ${firstname}.  There was a problem linking your account, please contact technical support.  Return code: '${errorcode}'.
+app.landing.linkaccount.loginedcontent = You must link a Marquee Sports account to enjoy the action on other devices, including your PC.
+app.landing.nosubscriptioncontent = Welcome, ${firstname}. It's time to get your pass and get in the game, subscribe now to get started.
+
+app.landing.noavailablereceipt = There is no available receipt to link account, please subscribe first!
+
+app.landing.purchase = SUBSCRIBE NOW
+app.landing.shortcodesignin = SIGN IN WITH SHORT CODE
+app.landing.signintvprovider = SIGN IN WITH TV PROVIDER
+app.landing.signin = SIGN IN WITH\n MARQUEE SPORTS NETWORK ACCOUNT
+app.landing.register = CREATE A MARQUEE APP ACCOUNT
+app.landing.signout = SIGN OUT
+app.landing.linkaccount = LINK ACCOUNT
+app.landing.alreadypurchased = Already Purchased?
+app.landing.restore.restorepurchase = Restore Purchase
+app.landing.close = Not now
+
+app.landing.noaccess = Your account does not have access to this content, please visit our website.
+app.landing.alreadysubscribed = Your account has already subscribed to ${subsName}. For further actions to this subscription, please contact customer service.
+app.landing.alreadylinked = You have purchased and linked with an account, please use correct account to login.
+
+app.landing.purchasetitle = Subscribe now for just $19.99/mo
+app.landing.purchasedescription = Subject to territorial restrictions.
+
+#Purchase Page
+app.purchase.title = PURCHASE A PLAN
+app.purchase.description = Pay-Per-View events not included, must be purchased separately.
+
+app.purchase.agreeterms = By subscribing, you accept our<br/> <a href%3d'${tosUrl}'>Terms of Use</a> and <a href%3d'${privacyUrl}'>Privacy Policy</a>.
+app.purchase.termsandprivacydescription = This site is protected by reCAPTCHA and the Google <a href%3d'${privacyUrl}'>Privacy Policy</a> and <a href%3d'${tosUrl}'>Terms of Service</a> apply.
+app.purchase.agreeterms.nocheck = Please accept the Terms of Use and Privacy Policy.
+
+app.purchase.purchase = SUBSCRIBE NOW
+app.purchase.close = NOT INTERESTED
+
+app.purchase.monthly = Monthly
+app.purchase.month = month
+app.purchase.annually = Annually
+app.purchase.annual = annual
+app.purchase.year = year
+app.purchase.tax = Plus applicable taxes
+app.purchase.alreadypurchased = Already purchased through the App Store?
+app.purchase.restore.restorepurchase = Restore Purchase
+app.purchase.hintdescription = The Auto-renew subscription will continue unless turned off in Settings at least 24-hours before the subscription period ends.You can manage your subscription at any time, including turning off your auto-renew, by cancelling your subscription with your settings of your mobile (via Apple ID).\nView the Terms of Use and Privacy Policy in Settings.
+
+app.purchase.hintdescriptionnolink.prefix = *Pay-Per-View Events not included with subscription, must be purchased separately.
+app.purchase.hintdescriptionnolink = The Auto-renew subscription will continue unless turned off in Settings at least 24-hours before the subscription period ends.You can manage your subscription at any time, including turning off your auto-renew, by cancelling your subscription with your settings of your mobile (via Apple ID).\nView the Terms of Use and Privacy Policy in Settings.
+app.purchase.nosubscriptions = There are no available subscriptions.
+app.purchase.notavailable = NOT AVAILABLE IN STORE.
+app.purchase.usercancel = Purchase failed. If your subscription is still active, you need to restore the transactions.
+app.purchase.error = This purchase cannot be made at this time.
+app.purchase.restoresuccess = Your transactions have been restored.
+app.purchase.resorefailed = There are no transactions to restore.
+
+app.purchase.turnoninapppurchase = Please turn on system In-App Purchases first.
+app.purchase.notavailableerror = This subscription is not available in Store.
+
+app.purchase.agreeterms.prefix = By subscribing, you accept our\n
+app.purchase.agreeterms.termsofuse = Terms of Use
+app.purchase.agreeterms.and = and
+app.purchase.agreeterms.privacypolicy = Privacy Policy
+app.purchase.steptitle = Step 2 of 3: Purchase a Plan
+app.purchase.validate.notagreetos = You must read and accept the Terms of Use, then check the 'Terms of Use' checkbox.
+app.purchase.notinmarket = Content cannot be played because it is subject to local blackout restrictions. Sorry about that.
+app.purchase.ok = OK
+
+#Purchase success page
+app.purchasesuccess.title = Success!
+app.purchasesuccess.description = You have successfully subscribed to Marquee Sports Network.
+app.purchasesuccess.begin = LET'S BEGIN
+app.purchasesuccess.steptitle = Step 3 of 3: Success!
+
+#Login success page
+app.loginsuccess.title = Success!
+app.loginsuccess.description = You have successfully\n signed in to Marquee Sports Network.
+app.loginsuccess.begin = LET'S BEGIN
+
+#Account info page
+app.accountinfo.title = My Account
+app.accountinfo.tvprovider = TV Provider
+app.accountinfo.signintvprovider = SIGN IN WITH TV PROVIDER
+app.accountinfo.signouttvprovider = SIGN OUT
+app.accountinfo.register = SUBSCRIBE NOW
+app.accountinfo.signin = SIGN IN WITH\n MARQUEE SPORTS NETWORK ACCOUNT
+app.accountinfo.shortcodesignin = SIGN IN WITH SHORT CODE
+app.accountinfo.signout = SIGN OUT
+app.accountinfo.myprofile = MY PROFILE
+app.accountinfo.shortcodetitle = Activate Marquee Sports Network
+app.accountinfo.shortcodeurltitle = To activate please visit:
+app.accountinfo.shortcodedesc = Use a browser on your computer or phone, enter the code above and follow the instructions provided
+app.accountinfo.notification = NOTIFICATIONS
+app.accountinfo.managedevice = MANAGE DEVICE
+app.accountinfo.registerdevice = REGISTER DEVICE
+app.accountinfo.inmarketsettings = IN MARKET SETTINGS
+app.accountinfo.inmarketdefault = Default
+app.accountinfo.inmarketin = In Market
+app.accountinfo.inmarketout = Out Market
+
+#Edit Profile
+app.editprofile.deleteaccount = DELETE ACCOUNT
+app.editprofile.deleteaccount.message = Visit ${deleteAccountLink} to delete your account.
+app.editprofile.deleteaccount.message.tv = Visit ${deleteAccountLink}\nfrom your computer or mobile device\nto delete your account.
+app.editprofile.deleteaccount.meesage.tv.prefix = On your computer or mobile device, go to
+app.editprofile.deleteaccount.meesage.tv.suffix = And delete your account.
+app.editprofile.ok = OK
+app.editprofile.cancel = Cancel
+app.editprofile.expirydate = Order expiry date:
+app.editprofile.nextchargedate = Next charge date:
+app.editprofile.purchase = SUBSCRIBE NOW
+app.editprofile.validate.zipcodeinvalid = Please enter a valid zip code.
+
+#GetStarted page
+app.getstarted.title = WELCOME TO MARQUEE SPORTS NETWORK
+app.getstarted.getstarted = GET STARTED
+app.getstarted.signin.prefix = Have a Marquee Sports Network\n or TV Provider Account?
+app.getstarted.signin = SIGN IN
+
+#location page
+app.location.title = LOCATION SERVICES
+app.location.description = The Marquee Sports Network App requires location services to be enabled in order to show you live and original content from your favorite teams.
+app.location.enablelocation = ENABLE LOCATION SERVICES
+app.location.opensettings = Open Settings App
+app.location.skip = SKIP
+
+#Already Purchase page
+app.alreadypurchase.title = ALREADY SUBSCRIBED TO MARQUEE SPORTS NETWORK?
+app.alreadypurchase.signintvprovider = SIGN IN WITH TV PROVIDER
+app.alreadypurchase.signin = SIGN IN WITH\n MARQUEE SPORTS NETWORK ACCOUNT
+app.alreadypurchase.shortcodesignin = SIGN IN WITH SHORT CODE SHORT CODE
+
+#Settings page
+app.settings.title = Settings
+app.settings.profile = Edit Profile
+app.settings.messages = Messages
+app.settings.favoriteteam = Edit Favorite Teams
+app.settings.emailfeedback = Email Feedback
+app.settings.location = My Location
+app.settings.notifications = Notifications
+app.settings.scores = Show Scores
+app.settings.localtime = Show Local Time
+app.settings.appinfo = App Info
+app.settings.header.unlogin.title = Get Access to Marquee Sports.
+app.settings.header.unlogin.subtitle = Sign in your Marquee Sports account.
+app.settings.header.signout.title = Sign out of your Marquee Sports account
+app.settings.restore = RESTORE PURCHASE
+
+#User Overlay
+app.useroverlay.countdown.days = DAYS
+app.useroverlay.countdown.hours = HRS
+app.useroverlay.countdown.mins = MINS
+app.useroverlay.countdown.secs = SECS
+app.useroverlay.purchase = SUBSCRIBE NOW
+app.useroverlay.signin = SIGN IN
+app.useroverlay.sign.hint = Already a subscriber?
+app.useroverlay.alreadysubscriber.signin = Sign in
+
+app.useroverlay.message.signinorbuytowatch.ppv = You need a subscription to watch.\nBuy a subscription or Sign in.
+app.useroverlay.message.signintowatch.ppv = To learn more about PPV, please visit our website.
+app.useroverlay.message.buytowatch.ppv = You need to buy a subscription to watch.
+app.useroverlay.message.contentnoaccess.ppv = To learn more about PPV, please visit our website.
+
+app.useroverlay.message.signinorbuytowatch = You need a subscription to watch.\nBuy a subscription or Sign In.
+app.useroverlay.message.signintowatch = You need to sign In to watch.
+app.useroverlay.message.buytowatch = You need to buy a subscription to watch.
+app.useroverlay.message.buytowatch.dtc = You need to buy a subscription to watch.
+app.useroverlay.message.buytowatch.tve = If you subscribe through your TV provider\nlogout and choose 'SIGN IN WITH TV PROVIDER'.\nOr purchase a subscription.
+app.useroverlay.message.contentnoaccess = Your account does not have access to this content, please visit our website.
+app.useroverlay.message.contentblackout = Due to territory restrictions, this content is unavailable in your area.
+app.useroverlay.message.error.detail = This video is currently unavailable,  Please try again later.
+app.useroverlay.message.error.ppt = This video is currently unavailable,  Please try again later.
+app.useroverlay.message.error.network = This video is currently unavailable,  Please try again later.
+app.useroverlay.message.error.upcoming = This event has not started yet.
+app.useroverlay.message.error.pending = This video is currently pending archive,  Please try again later.
+app.useroverlay.message.error.unavailable = This video is currently unavailable,  Please try again later.
+
+
+#Google Cast
+app.cast.menumediaroute = Play on&#8230;
+app.cast.menushowqueue = Show Queue
+app.cast.queue = Queue
+app.cast.queueempty = Queue is empty!
+app.cast.playnow = Play Now
+app.cast.playnext = Play Next
+app.cast.addtoqueue = Add to Queue
+app.cast.queueplaynow = Now casting...
+app.cast.addtoplaylist = Add to Playlist
+app.cast.addedtoqueue = has been add to playlist
+app.cast.queueplaynext = has been add to playlist
+app.cast.queuefailed = Failed to add item to queue or play remotely
+app.cast.showcase = Touch to cast videos to your TV
+app.cast.tabtocast = Tap to cast your videos to:
+
+app.cast.error = Error
+app.cast.ok = OK
+app.cast.success = Success
+app.cast.vs = vs
+app.cast.castingto = Casting to:
+app.cast.connecttodevice = Connect to device
+app.cast.stopcasting = STOP CASTING
+app.cast.readytocastvideos = Ready to cast videos from this app.
+app.player.casting.error = Video casting failed, please try again later.
+app.cast.castingscreen = Casting screen
+app.cast.nomediaselected = Ready to cast videos from this app.
+app.cast.noinfoavailable = No info available.
+app.cast.remindlater = Remind Later.
+app.cast.ignore = Ignore
+
+app.cast.playservicesnotinstall = The Chromecast service won\'t run without Google Play services, which are missing from your device.
+app.cast.playservicesnotdisabled = The Chromecast service won\'t work unless you enable Google Play services.
+app.cast.playservicesneedupdate = The Chromecast service won\'t run unless you update Google Play services.
+app.cast.playservicesunsupported = Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.
+app.cast.playservicesnonetwork = A data connection is required to connect to Google Play services.
+app.cast.playservicesinvalidaccount = The specified account does not exist on this device. Please choose a different account.
+app.cast.playservicesdatenotcorrect = The date on the device appears to be incorrect. Please check the date on the device.
+app.cast.playservicesunknownissue = Unknown issue with Google Play services.
+
+#UIKit
+app.uikit.calenda.titlte = xxxx
+
+#Notificaiton
+app.notification.title = ALERTS
+app.notification.globalalerts = Global Alerts
+app.notification.teamalerts = Team Alerts
+app.notification.breakingnews = Breaking News
+app.notification.myteam = MY TEAMS
+app.notification.game.alerts = GAME Alerts
+app.notification.game.tunein = Game Tune In
+app.notification.game.start = Game Start
+app.notification.game.end = Game End
+app.notification.game.startot = Game Start OT
+app.notification.game.final = Game Final
+app.notification.game.halftimeot = Half Time OT
+app.notification.game.halftime = Half Time
+app.notification.game.halfend = Game Half End
+app.notification.game.2ndhalf = Game 2ND Half
+app.notification.game.otstart = Game OT Start
+app.notification.game.othalfend = Game OT Half End
+app.notification.game.ot2ndhalf = Game OT 2ND Half
+app.notification.game.sostart = Game SO Start
+app.notification.reminder = Reminder Me
+app.notification.closegame = Close Game
+app.notification.injuries = Injuries
+app.notification.nofavoriteteamalertcontent = You must select a favorite team from SETTINGS in order to receive this alert.
+app.ui.push.enable = ALLOW NOTIFICATIONS
+app.ui.push.disable_des = Notification has been disabled, you can go to Settings page turn on.
+app.ui.push.news = BREAKING NEWS
+app.ui.push.gamestart = GAME START
+app.ui.push.tuningin = TUNING IN
+app.ui.push.lineups = LINEUPS
+app.ui.push.gameend = GAME END
+app.ui.push.pregame = PREGAME
+app.ui.push.firstpitch = FIRST PITCH
+app.ui.push.scoring = SCORING
+app.ui.push.apprating = APP RATING
+app.ui.push.alertheader = ALERTS
+app.ui.push.diable.alert = Notification has been disabled, you can go to Settings page turn on.
+
+#pcm
+app.pcm.title = Alert
+app.pcm.message = Your Marquee Sports account is being used to stream video on a different device. Tap 'Continue' to resume watching on this device.
+app.pcm.continue.watch = Continue
+app.pcm.cancel = Close
+
+
+#Alert
+app.alert.title = Set Your Alerts
+app.alert.setalerts = SET ALERTS
+app.alert.back = Back
+app.alert.done = Done
+app.alert.nodata = There are currently no alerts.
+app.alert.edit = Edit
+app.alert.remove.alert = ${eventName} has been removed from your alerts.
+app.alert.add.alert = ${eventName} has been added to your alerts.
+app.alert.local.start = ${eventName} will start soon.
+app.alert.setreminder = ADD TO CALENDAR
+app.alert.removereminder = REMOVE FROM CALENDAR
+
+#category detail page
+app.categorydetail.play = Play
+
+#video detail page
+app.videodetail.relatedvideos = RELATED VIDEOS
+app.videodetail.detail = Details
+app.videodetail.duration = Duration:
+app.videodetail.description = Description:
+app.videodetail.live = Live
+app.videodetail.date = Date:
+app.videodetail.upcoming = UPCOMING LIVE EVENT
+app.videodetail.kickoff = Kick-off -
+app.videodetail.watchingNow = Wtching Now
+
+#personalization
+app.personalization.favorite.add = Agregar a la lista
+app.personalization.favorite.addsuccess = A la lista agregar éxito
+app.personalization.favorite.addfailed = Error a la lista agregar
+app.personalization.favorite.remove = Eliminado de lista
+app.personalization.favorite.removesuccess = De lista eliminado éxito
+app.personalization.favorite.removefailed = Error de lista eliminado
+app.personalization.message.historyresumeplaying = Resume playing from:
+
+
+
+#Account
+app.account.cancel = CANCEL
+app.account.allownotification = Allow Notifications
+app.account.allownotification.title = Stay in the know
+app.account.allownotification.desc = Never miss a game, highlight, or latest news about your favorite team.
+app.account.allownotification.dialog.title = “Marquee” Would like to send you notifications
+app.account.allownotification.dialog.desc = Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.
+app.account.allownotification.dialog.allow = ALLOW
+app.account.allownotification.dialog.notallow = DON'T ALLOW
+
+#playbyplay
+app.gamedetail.playbyplay.startFirstHalf = FIRST HALF
+app.gamedetail.playbyplay.startSecondHalf = SECOND HALF
+app.gamedetail.playbyplay.startFirstExtraTime = FIRST EXTRA HALF
+app.gamedetail.playbyplay.startSecondExtraTime = SECOND EXTRA HALF
+app.gamedetail.playbyplay.startPenaltyPhase = PENALTY PHASE
+
+app.gamedetail.playbyplay.goal = Goal
+app.gamedetail.playbyplay.yellowCard = Yellow Card
+app.gamedetail.playbyplay.redCard = Red Card
+app.gamedetail.playbyplay.substitution = Substitution
+app.gamedetail.playbyplay.penaltyScored = Penalty Scored
+app.gamedetail.playbyplay.penalty = Penalty
+app.gamedetail.playbyplay.ownGoal = Own Goal
+
+app.gamedetail.playbyplay.scoredBy = Scored by
+
+app.gamedetail.playbyplay.firstHalf = First Half
+app.gamedetail.playbyplay.secondHalf = Second Half
+app.gamedetail.playbyplay.secondExtraTime = Second Extra Time
+app.gamedetail.playbyplay.replay = MATCH REPLAY
+
+#Home page
+app.home.share = share
+
+#Schedule page
+app.schedule.viewcalendar = View Calendar
+app.schedule.nodata = There aren't any games on this date.\n Swipe left or right for additional games.
+app.schedule.watch = WATCH
+app.schedule.highlights = HIGHLIGHTS
+app.schedule.boxscore = BOXSCORE
+app.schedule.preview = PREVIEW
+app.schedule.hangout = HANGOUT
+
+#GameDetail Page
+app.gamedetail.matchup = Matchup
+app.gamedetail.highlights = Highlights
+app.gamedetail.boxscore = Box Score
+app.gamedetail.playbyplay = Play by Play
+app.gamedetail.funhangout = Fan Hangout
+app.gamedetail.nodata = No content is available at this time.
+
+#Watch later
+app.watchlater.watchlater = WATCH LATER
+app.watchlater.remove = REMOVE
+app.watchlater.share = SHARE
+app.watchlater.note = PLEASE NOTE:\nCONTENT YOU ARE SHARING MAY BE SUBJECT TO GEO-RESTRICTIONS IN CERTAIN TERRITORIES.
+app.watchlater.cancel = CANCEL
+
+#Standing page
+standing.title = Standings
+standing.conference.east = East Conference
+standing.conference.west = Wast Conference
+
+standing.keyX = x
+standing.keyO = o
+standing.keyE = e
+standing.keyW = w
+standing.keyNW = nw
+standing.keySW = sw
+standing.keyA = a
+standing.keyC = c
+standing.keySE = se
+standing.keyPI = pi
+standing.textClinchedPlayoffBerth = Clinched Playoff Berth
+standing.textEliminatedFromPlayoffsContention = Eliminated from Playoffs contention
+standing.textClinchedEasternConference = Clinched Eastern Conference
+standing.textClinchedWesternConference = Clinched Western Conference
+standing.textClinchedNorthwestDivision = Clinched Northwest Division
+standing.textClinchedSouthwestDivision = Clinched Southwest Division
+standing.textClinchedAtlanticDivision = Clinched Atlantic Division
+standing.textClinchedCentralDivision = Clinched Central Division
+standing.textClinchedSoutheastDivision = Clinched Southeast Division
+standing.textClinchedPlayIn = Clinched Play-In
+standing.textPlayInTournamentStart = Play-In Tournament Start
+standing.textPlayInTournamentEnd = Play-In Tournament End
+
+#video detail page
+videodetail.title = Video
+videodetail.list.title = RELATED VIDEOS
+
+#stats page
+stats.title = Stats
+stats.season = Season Averages
+stats.total = Season Totals
+stats.noData = There are no stats for today
+
+#MVPD login
+app.mvpd.login.title = SELECT YOUR CABLE\nOR STREAMING PROVIDER
+app.mvpd.login.desc = I subscribe to Marquee Sports Network with a cable or streaming provider
+app.mvpd.login.moreproviders = MORE PROVIDERS
+app.mvpd.login.selectprovider = SELECT TV PROVIDER
+app.mvpd.error.authentictionfailed = Authentication Failed
+app.mvpd.error.mvpdurlnotfound = TV Provider Website Not Found
+app.mvpd.error.invalidtvprovider = Invalid TV Provider
+app.mvpd.error.generic = Oops! Something went wrong.
+app.mvpd.registration.profile.exist.title = Profile already exists
+app.mvpd.registration.profile.exist.message = A profile already exists for the email address ${email}\n\nWould you like to continue and use the existing profile?
+app.mvpd.registration.profile.nosubscription.message = A profile already exists for the email address ${email}\n\nPlease use a different email address.
+app.mvpd.registration.profile.hassubscription.message = It appears that the account associated with this email already has a valid subscription. Please use a different email address.
+
+
+app.tv.mvpd.login.prompt1 = On your computer or mobile device, go to
+app.tv.mvpd.login.prompt2 = watchmarquee.com/activate
+app.tv.mvpd.login.prompt3 = Enter the code below and sign in.
+app.tv.mvpd.login.codeerror = We have problem retrieving activation code. Please click below to generate a new code.
+app.tv.mvpd.login.newcode = New Activation Code
+
+#EPG
+epg.btn.hide.title = Hide Full Guide
+epg.btn.show.title = View Full Guide
+epg.state.nowPlaying = NOW PLAYING:
+epg.state.upNext = UP NEXT:
+epg.time.today = TODAY
+epg.time.minLeft = min left
+epg.time.formatminleft = %d min left
+epg.time.tomorrow = TOMORROW
+
+#Latest
+latest.btn.epg.title = View Full Guide
+latest.navigation.back = BACK
+
+app.p.poweredby = Powered by
+app.p.retry = RETRY
+app.p.clicktoretry = Click to Retry
+app.p.dismiss = DISMISS
+app.p.mypackage = Marquee League Pass
+app.p.accesshint = Watch this content now
+app.p.video.geo = This video is unavailable in your area.
+app.p.common.error = An Error Occurs, please try later again!
+
+#device management
+app.devicemanagement.menu = Register Device
+app.devicemanagement.register = Register Device
+app.devicemanagement.manage = Manage Device
+app.devicemanagement.streamingdevice = READY TO WATCH MARQUEE SPORTS NETWORK WITH YOUR STREAMING DEVICE?
+app.devicemanagement.registrationcodedes = Enter your Registration Code displayed on your streaming device below:
+app.devicemanagement.registrationcode = Registration Code
+app.devicemanagement.devicename = Device Name(Optional)
+app.devicemanagement.devicelimited = YOU ARE LIMITED TO 20 DEVICES BEING REGISTERED UNDER YOUR ACCOUNT.
+app.devicemanagement.deviceregistered = The following devices have been registered under your account:
+app.devicemanagement.thisdevice = This Device
+app.devicemanagement.deleteconfirm = Do you want to delete this device?
+app.devicemanagement.editprompt = Please enter the new device name.
+app.devicemanagement.deleteerror = Delete device failed, please try again later.
+app.devicemanagement.editerror = Rename device failed, please try again later.
+app.devicemanagement.registersuccess = Register device success.
+app.devicemanagement.registerfailed = Register device failed, please try again later.
+app.devicemanagement.registercodeempty = Registration Code is required.
+
+
+#device limit
+app.devicelimit.title = Device Management
+app.devicelimit.desc = You have reached the max limitation of login devices. You can't watch any videos on this device at the moment.
+Please go to Device Management under My Account to remove some of the devices.
+app.devicelimit.ok = Device Management
+app.devicelimit.cancel = Dismiss
+
+#event
+app.ui.event.upcoming.message = This event has not started yet.
+
+
+#site navigation
+app.sitenav.events = MARQUEE PLUS
+app.sitenav.epg = 
+

@@ -1,0 +1,124 @@
+{
+    "comments":"type: webview, native, menuitem, menu, separator",
+    "type":"menu",
+    "description":"The tab bar",
+    "items":[
+       {
+          "type":"menuitem",
+          "title":"BROWSE",
+          "id":"LatestItemKey",
+          "pImgkey":"menu_latest",
+          "pImgUrl":"",
+          "selected":true,
+          "uiView": "SiteNavPage",
+          "router":"template://latest",
+          "params":{
+             "section": "hubs"
+          }
+       },
+       {
+          "type":"menuitem",
+          "title":"ON NOW",
+          "id":"ChannelItemKey",
+          "pImgkey":"menu_channel",
+          "pImgUrl":"",
+          "uiView": "ChannelsPage",
+          "router":"template://watchnow",
+          "params":{
+            
+          }
+       },
+       {
+          "type":"menuitem",
+          "title":"VIDEO",
+          "id":"ShowsItemKey",
+          "pImgkey":"menu_shows",
+          "pImgUrl":"",
+          "uiView": "SectionDetailPage",
+          "router":"template://videos",
+          "params":{
+            "section": "hub_videos",
+            "id":"default"
+          }
+       },
+       {
+          "type":"menu",
+          "title":"ACCOUNT",
+          "id":"MoreItemKey",
+          "pImgkey":"menu_more",
+          "pImgUrl":"none",
+          "router":"template://more",
+          "items":[
+            {
+                "type":"separator",
+                "title":"Legal",
+                "id":""
+            },
+            {
+                "type":"menuitem",
+                "title":"PRIVACY POLICY",
+                "id":"kPrivacyPolicy",
+                "pImgkey":"icon_newstore",
+                "pImgUrl":"",
+                "router":"template://webview",
+                "params":{
+                   "url":"https://watchmarquee.com/doc/embed/privacy-policy.html?inpage=true",
+                   "showControl": "true"
+                }
+            },
+            {
+                "type":"menuitem",
+                "title":"TERMS & CONDITIONS",
+                "id":"kToS",
+                "pImgkey":"icon_teams",
+                "pImgUrl":"",
+                "router":"template://webview",
+                "params":{
+                   "url":"https://watchmarquee.com/doc/embed/terms-conditions.html?inpage=true",
+                   "showControl": "true"
+                }
+            },
+            {
+                "type":"menuitem",
+                "title":"COPYRIGHTS",
+                "id":"kCopyrights",
+                "pImgkey":"icon_importantdates",
+                "pImgUrl":"",
+                "router":"template://webview",
+                "params":{
+                   "url":"https://watchmarquee.com/doc/embed/copyrights.html?inpage=true",
+                   "showControl": "true"
+                }
+            },
+            {
+                "type":"menuitem",
+                "title":"SUPPORT",
+                "id":"kSupport",
+                "pImgkey":"icon_teams",
+                "pImgUrl":"",
+                "router":"template://webview",
+                "params":{
+                   "url":"https://help.marqueesportsnetwork.com",
+                   "showControl": "true"
+                }
+            },
+            {
+                "type":"separator",
+                "title":"Info",
+                "id":""
+            },
+            {
+               "type":"menuitem",
+               "enabled":true,
+               "title":"APP INFO",
+               "id":"",
+               "pImgkey":"icon_standings",
+               "pImgUrl":"",
+               "router":"template://appinfo",
+               "params":{
+               }
+            }
+          ]
+       }
+    ]
+ }
