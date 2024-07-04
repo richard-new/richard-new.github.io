@@ -23,14 +23,14 @@
       "personalServer": "https://rest-prod-marquee.evergent.com/marquee",
       "apiServer": "https://ottapp-appgw-client-a.proda.msn.tv3cloud.com",
       "playerServer": "https://ottapp-appgw-amp-a.proda.msn.tv3cloud.com/",
-      "cdnServer": "https://neulion-a.akamaihd.net/nlmobile/marquee",
+      "cdnServer": "https://richard-new.github.io/template",
       "websiteUrl":"https://watchmarquee.com",
       "tenant_id": "default",
       "apiUser": "MQEndapiuser",
       "apiPassword": "MQE@12345678900987654321pwrdendr",
       "channelPartnerID": "MRQU",
       "dmaID": "001",
-		  "enableAutoRefreshToken":true,
+      "enableAutoRefreshToken":true,
       "autoRefreshTokenAheadSeconds": 300,
       "allowTveBindExistDtcNoSubUser": true
 
