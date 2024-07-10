@@ -1,0 +1,128 @@
+{
+  "settings": [
+    {
+      "abid": "ab.feed.localization",
+      "url": "https://richard-new.github.io/modulesapp/assets/localization/language_en.txt"
+    },
+    {
+      "abid": "ab.web.privacy.policy",
+      "url": "https://watchmarquee.com/doc/embed/privacy-policy.html?inpage=true"
+    },
+    {
+      "abid": "ab.web.terms.conditions",
+      "url": "https://watchmarquee.com/doc/embed/terms-conditions.html?inpage=true"
+    },
+    {
+      "abid": "ab.web.share.welcome",
+      "url": "https://watchmarquee.com/doc/embed/copyrights.html?inpage=true"
+    },
+    {
+      "abid": "ab.web.about.powermega",
+      "url": "https://watchmarquee.com/doc/embed/copyrights.html?inpage=true"
+    },
+    {
+      "abid": "ab.service.youtube",
+      "params": {
+        "thumbnails": {
+          "img_320x180": "https://img.youtube.com/vi/${ytvid}/mqdefault.jpg",
+          "img_480x360": "https://img.youtube.com/vi/${ytvid}/hqdefault.jpg",
+          "img_640x480": "https://img.youtube.com/vi/${ytvid}/sddefault.jpg",
+          "img_1280x720": "https://img.youtube.com/vi/${ytvid}/maxresdefault.jpg"
+        },
+        "pbdp_img": "img_640x480"
+      }
+    },
+    {
+      "abid": "ab.service.geo",
+      "url": "http://ip-api.com/json",
+      "params": {
+        "url": "https://ipapi.co/json"
+      }
+    },
+    {
+      "abid": "ab.app.settings",
+      "params": {
+        "ytvSizeNotes": "1280x720, 640x360, 320x240",
+        "supportAtt": true,
+        "debugLog": false
+      }
+    },
+    {
+      "abid": "ab.app.messaging",
+      "params": {
+        "title": "@abkey/ab.app.messaging.title",
+        "message": "@abkey/ab.app.messaging.body",
+        "forceUpgrade": false,
+        "upgradeUrl": "https://itunes.apple.com/app/id1497058186"
+      },
+      "enabled": false
+    },
+    {
+      "abid": "ab.app.info",
+      "params": {
+        "email": {
+          "to": "info@test.net",
+          "subject": "User Feedbacks"
+        }
+      }
+    },
+    {
+      "abid": "ab.app.rating",
+      "params": {
+        "enabled": true,
+        "selected": true,
+        "rateOpen": "2021-12-15T00:00:03.000Z",
+        "daysUsed": 7,
+        "appOpens": 5,
+        "registed": true,
+        "reminder": 7
+      }
+    },
+    {
+      "abid": "ab.service.interval",
+      "params": {
+        "default": 60
+      }
+    },
+    {
+      "abid": "ad.app.ads",
+      "params": {
+        "interstitialBegin": 30,
+        "interstitialRecur": 180,
+        "appOpenBegin": 30,
+        "appOpenRecur": 28800
+      }
+    }
+  ],
+  "platform": {
+    "android": [
+      
+    ],
+    "ios": [
+      
+    ]
+  },
+  "redirect": {
+    "individuals": [
+      {
+        "url": "https://domain.name/app/config/file.pbi",
+        "deviceId": [
+          "serial-number-in-the-app-info"
+        ],
+        "email": [
+          "a.b@c.com",
+          "x.y@z.com"
+        ]
+      }
+    ],
+    "versions": [
+      {
+        "url": "https://domain.name/app/config/file.pbi",
+        "versions": [
+          "0.2",
+          "^1\\\\.[1-7]$"
+        ]
+      }
+    ]
+  }
+}
