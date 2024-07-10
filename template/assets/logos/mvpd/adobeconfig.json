@@ -1,0 +1,42 @@
+{
+    "isProduction": true,
+	  "url": "https://sp.auth.adobe.com/adobe-services",
+    "requestor": "Template",
+    "list": "https://api.auth.adobe.com/api/v1/config/Template",
+    "allResourceId": ["MarqueeSports"],
+    "favoriteProviderIDs": ["Comcast_SSO", "DTV", "Mediacom", "RCN", "Spectrum", "Fubo"],
+    "logos":{
+        "dark":{
+            "dtv": "https://richard-new.github.io/template/assets/logos/mvpd/dark/directv.png",
+            "mediacom": "https://richard-new.github.io/template/assets/logos/mvpd/dark/mediacom.png",
+            "rcn": "https://richard-new.github.io/template/assets/logos/mvpd/dark/rcn.png",
+            "spectrum": "https://richard-new.github.io/template/assets/logos/mvpd/dark/spectrum.png",
+            "fubo": "https://richard-new.github.io/template/assets/logos/mvpd/dark/fubo.png",
+            "comcast_sso": "https://richard-new.github.io/template/assets/logos/mvpd/dark/xfinity.png"
+        },
+        "light":{
+            "dtv": "https://richard-new.github.io/template/assets/logos/mvpd/light/directv.png",
+            "mediacom": "https://richard-new.github.io/template/assets/logos/mvpd/light/mediacom.png",
+            "rcn": "https://richard-new.github.io/template/assets/logos/mvpd/light/rcn.png",
+            "spectrum": "https://richard-new.github.io/template/assets/logos/mvpd/light/spectrum.png",
+            "fubo": "https://richard-new.github.io/template/assets/logos/mvpd/light/fubo.png",
+            "comcast_sso": "https://richard-new.github.io/template/assets/logos/mvpd/light/xfinity.png",
+            "acecommunications": "https://richard-new.github.io/template/assets/logos/mvpd/light/acecommunications.png",
+            "attott": "https://richard-new.github.io/template/assets/logos/mvpd/light/attott.png",
+            "coo080": "https://richard-new.github.io/template/assets/logos/mvpd/light/coo080.png",
+            "haw050": "https://richard-new.github.io/template/assets/logos/mvpd/light/haw050.png",
+            "ind080": "https://richard-new.github.io/template/assets/logos/mvpd/light/ind080.png",
+            "mpw": "https://richard-new.github.io/template/assets/logos/mvpd/light/mpw.png",
+            "nimbletv_auth-gateway_net": "https://richard-new.github.io/template/assets/logos/mvpd/light/nimbletv_auth-gateway_net.png",
+            "nrtccti010": "https://richard-new.github.io/template/assets/logos/mvpd/light/nrtccti010.png",
+            "one040": "https://richard-new.github.io/template/assets/logos/mvpd/light/one040.png",
+            "pal015": "https://richard-new.github.io/template/assets/logos/mvpd/light/pal015.png",
+            "qua010": "https://richard-new.github.io/template/assets/logos/mvpd/light/qua010.png",
+            "she005": "https://richard-new.github.io/template/assets/logos/mvpd/light/she005.png",
+            "ski020": "https://richard-new.github.io/template/assets/logos/mvpd/light/ski020.png",
+            "sou010": "https://richard-new.github.io/template/assets/logos/mvpd/light/sou010.png",
+            "tvc030": "https://richard-new.github.io/template/assets/logos/mvpd/light/tvc030.png",
+            "wyo020": "https://richard-new.github.io/template/assets/logos/mvpd/light/wyo020.png"
+        }
+    }
+}
