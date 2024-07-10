@@ -1,0 +1,102 @@
+#Validate Message
+
+#UI Label & Button
+app.ui.save = Save
+app.ui.continue = Continue
+app.ui.close = Close
+app.ui.cancel = Cancel
+app.ui.reselect = Reselect
+app.ui.confirmexit = Are you sure you want to exit?
+app.ui.alert = Alert
+app.ui.ok = OK
+app.ui.on = On
+app.ui.done = Done
+app.ui.unavailable = Unavailable
+app.ui.yes = Yes
+app.ui.no = No
+app.ui.retry = Retry
+app.ui.reconnect = Reconnect
+app.ui.warning = Warning
+app.ui.welcome = WELCOME
+app.ui.wait = Please wait...
+app.ui.quitapp = Quit App
+app.ui.exitapp = Exit App
+app.ui.updatenow = Update Now
+app.ui.nothanks = No
+app.ui.message = Message
+app.ui.account = Account
+app.ui.register = Register
+app.ui.emailaddress = Email Address
+app.ui.password = Password
+app.ui.access = Access
+app.ui.edit = Edit
+app.ui.remove = Remove
+app.ui.rescan = Rescan
+app.ui.Settings = More
+
+#UI Scroll Refresh
+app.ui.loadingnextpagemsgkey = Loading next page
+app.ui.pullrefreshreleasetorefresh = Release to refresh...
+app.ui.pullrefreshpulldowntorefresh = Pull down to refresh...
+app.ui.pullrefreshpulluptoloadnextpage = Pull up to load next page...
+app.ui.pullrefreshreleasetoloadnextpage = Release to load next page...
+app.ui.pullrefreshloading = Loading...
+app.ui.pullrefreshupdatetime = Update Time
+app.ui.pullrefreshyearsago = years ago
+app.ui.pullrefreshyearago = year ago
+app.ui.pullrefreshmonthsago = months ago
+app.ui.pullrefreshmonthago = month ago
+app.ui.pullrefreshdaysago = days ago
+app.ui.pullrefreshdayago = day ago
+app.ui.pullrefreshhoursago = hours ago
+app.ui.pullrefreshhourago = hour ago
+app.ui.pullrefreshminutesago = minutes ago
+app.ui.pullrefreshminuteago = minute ago
+app.ui.pullrefreshlessthanoneminute = less than one minute
+
+#No Data Message
+app.message.nodatatitle = This content is currently not available, please check back later
+app.message.nodatamessage = This content is currently not available, please check back later
+app.message.networkerrortitle = Check back later
+app.message.networkerrormsg = You are currently offline, please reconnect to the internet to continue using the App.
+app.message.nocontent = No content items are available at this time. Please check back later.
+
+#Error Message
+app.message.offline = To access this content, a connection to the internet is required.
+app.message.unknow = App is experiencing an error, please try again.
+app.message.connectfailed = Connection failed. Please try again later.
+app.ui.access.contentinfoerror = This content is currently not available, please check back later.
+
+# Force Upgrade
+ab.app.messaging.title = Upgrade Your App
+ab.app.messaging.body = There is a new version of the app in the store, please update.
+
+#Common Message
+app.message.exitapplication = Press again to exit the app
+app.message.turnonremotenotify = Please turn on system notifications
+
+#app config
+app.core.serverunavailable = We are currently experiencing technical difficulties with our application. Our team is actively working to fix the issue. Please try again later.
+
+#Menu
+
+#More Page
+
+#UI App Info
+
+#login
+
+#Tracking
+
+#UI
+app.ui.appinfo.deviceandapp = DEVICE AND APP INFO
+app.ui.appinfo.appversion = App Version
+app.ui.appinfo.devicetype = Device Type
+app.ui.appinfo.hardwaremodel = Hardware Model
+app.ui.appinfo.iosversion = iOS Version
+app.ui.appinfo.androidversion = Android Version
+app.ui.appinfo.networkcarrier = Network Carrier
+app.ui.appinfo.serialnumber = Serial Number
+app.ui.appinfo.IDFA = ID for Advertising
+app.ui.appinfo.notificationtoken = Notification Token
+app.ui.appinfo.timezone = Time Zone
