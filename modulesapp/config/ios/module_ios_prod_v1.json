@@ -59,7 +59,7 @@
         "forceUpgrade": true,
         "upgradeUrl": "https://itunes.apple.com/app/id1497058186"
       },
-      "enabled": false
+      "enabled": true
     },
     {
       "abid": "ab.app.info",
