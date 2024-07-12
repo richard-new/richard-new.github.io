@@ -1,11 +1,11 @@
 [
   {
     "params": {},
-    "id": "browsePage",
-    "trackingTag": "browse",
-    "title": "@abkey/MenuBrowse",
+    "id": "homePage",
+    "trackingTag": "home",
+    "title": "@abkey/MenuHome",
     "default": true,
-    "uiView": "BrowsePage",
+    "uiView": "HomePage",
     "pImgLocal": "menu_browse",
     "sImgLocal": "menu_browse_on",
     "type": "menuitem"
@@ -33,11 +33,11 @@
     "type": "menuitem"
   },
   {
-    "id": "moviesPage",
-    "trackingTag": "movies",
-    "title": "@abkey/MenuMovies",
+    "id": "starPage",
+    "trackingTag": "star",
+    "title": "@abkey/MenuStar",
     "default": false,
-    "uiView": "MoviesPage",
+    "uiView": "StarPage",
     "params": {},
     "pImgLocal": "menu_movies",
     "sImgLocal": "menu_movies_on",
