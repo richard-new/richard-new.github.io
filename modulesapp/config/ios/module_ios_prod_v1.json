@@ -56,7 +56,7 @@
       "params": {
         "title": "@abkey/ab.app.messaging.title",
         "message": "@abkey/ab.app.messaging.body",
-        "forceUpgrade": false,
+        "forceUpgrade": true,
         "upgradeUrl": "https://itunes.apple.com/app/id1497058186"
       },
       "enabled": false
