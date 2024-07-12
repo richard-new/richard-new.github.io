@@ -5,6 +5,10 @@
       "url": "https://richard-new.github.io/modulesapp/assets/localization/language_en.txt"
     },
     {
+      "abid": "ab.feed.menu",
+      "url": "https://richard-new.github.io/modulesapp/config/ios/menu_v1.json"
+    },
+    {
       "abid": "ab.web.privacy.policy",
       "url": "https://watchmarquee.com/doc/embed/privacy-policy.html?inpage=true"
     },

@@ -1,0 +1,255 @@
+[
+  {
+    "params": {},
+    "id": "browsePage",
+    "trackingTag": "browse",
+    "title": "@abkey/MenuBrowse",
+    "default": true,
+    "uiView": "BrowsePage",
+    "pImgLocal": "menu_browse",
+    "sImgLocal": "menu_browse_on",
+    "type": "menuitem"
+  },
+  {
+    "id": "liveTvPage",
+    "trackingTag": "livetv",
+    "title": "@abkey/MenuLiveTv",
+    "default": false,
+    "uiView": "LiveTvPage",
+    "params": {},
+    "pImgLocal": "menu_livetv",
+    "sImgLocal": "menu_livetv_on",
+    "type": "menuitem"
+  },
+  {
+    "id": "showsPage",
+    "trackingTag": "shows",
+    "title": "@abkey/MenuShows",
+    "default": false,
+    "uiView": "ShowsPage",
+    "params": {},
+    "pImgLocal": "menu_shows",
+    "sImgLocal": "menu_shows_on",
+    "type": "menuitem"
+  },
+  {
+    "id": "moviesPage",
+    "trackingTag": "movies",
+    "title": "@abkey/MenuMovies",
+    "default": false,
+    "uiView": "MoviesPage",
+    "params": {},
+    "pImgLocal": "menu_movies",
+    "sImgLocal": "menu_movies_on",
+    "type": "menuitem"
+  },
+  {
+    "id": "moreMenu",
+    "trackingTag": "more",
+    "title": "@abkey/MenuMore",
+    "default": false,
+    "items": [
+      {
+        "id": "signIn",
+        "access": "notlogin",
+        "trackingTag": "signIn",
+        "title": "@abkey/MenuSignIn",
+        "default": false,
+        "uiView": "SignInPage",
+        "params": {},
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "signOut",
+        "access": "login",
+        "trackingTag": "signOut",
+        "title": "@abkey/MenuSignOut",
+        "default": false,
+        "uiView": "SignOutPage",
+        "params": {},
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "localStation",
+        "access": "all",
+        "trackingTag": "localStation",
+        "title": "@abkey/MenuLocalStation",
+        "default": false,
+        "uiView": "LocalStationPage",
+        "params": {},
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "separatorHelp",
+        "access": "all",
+        "title": "@abkey/MenuSeparatorHelp",
+        "params": {},
+        "type": "separator"
+      },
+      {
+        "id": "faq",
+        "access": "all",
+        "trackingTag": "nl.tracking.faq",
+        "title": "@abkey/MenuFAQ",
+        "default": false,
+        "uiView": "WebviewPage",
+        "params": {
+          "url": "nl.app.faq",
+          "rightArrow": true,
+          "hideBrowserControls": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "emailUS",
+        "access": "all",
+        "trackingTag": "email",
+        "title": "@abkey/MenuEmailUS",
+        "default": false,
+        "uiView": "EmailUSPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "separatorMore",
+        "access": "all",
+        "title": "@abkey/MenuSeparatorMore",
+        "params": {},
+        "type": "separator"
+      },
+      {
+        "id": "languageSelection",
+        "access": "vip",
+        "trackingTag": "languageSelection",
+        "title": "@abkey/MenuAppLanguageSelection",
+        "default": false,
+        "uiView": "AppLanguageSelectionPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "regionSelection",
+        "access": "vip",
+        "trackingTag": "regionSelection",
+        "title": "@abkey/MenuAppRegionSelection",
+        "default": false,
+        "uiView": "AppRegionSelectionPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "videoQuality",
+        "access": "vip",
+        "trackingTag": "videoQuality",
+        "title": "@abkey/MenuAppVideoQuality",
+        "default": false,
+        "uiView": "AppVideoQualityPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "tos",
+        "access": "all",
+        "trackingTag": "nl.tracking.tos",
+        "title": "@abkey/MenuTOS",
+        "default": false,
+        "uiView": "WebviewPage",
+        "params": {
+          "url": "nl.app.tos",
+          "rightArrow": true,
+          "hideBrowserControls": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "privacy",
+        "access": "all",
+        "trackingTag": "nl.tracking.privacypolicy",
+        "title": "@abkey/MenuPrivacy",
+        "default": false,
+        "uiView": "WebviewPage",
+        "params": {
+          "url": "nl.app.privacy",
+          "rightArrow": true,
+          "hideBrowserControls": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "informationProtection",
+        "access": "all",
+        "trackingTag": "",
+        "title": "@abkey/MenuInformationProtection",
+        "default": false,
+        "uiView": "WebviewPage",
+        "params": {
+            "url": "nl.app.informationprotection",
+            "rightArrow": true,
+            "hideBrowserControls": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "appInfo",
+        "access": "all",
+        "trackingTag": "nl.tracking.appinfo",
+        "title": "@abkey/MenuAppInfo",
+        "default": false,
+        "uiView": "AppInfoPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "ProductServicePatents",
+        "access": "all",
+        "trackingTag": "nl.tracking.productservicepatents",
+        "title": "@abkey/MenuProductServicePatents",
+        "default": false,
+        "uiView": "WebviewPage",
+        "params": {
+          "rightArrow": true,
+          "hideBrowserControls": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "footer",
+        "access": "all",
+        "title": "",
+        "params": {},
+        "type": "footer"
+      }
+    ],
+    "uiView": "MorePage",
+    "params": {
+      "gclTeam": false,
+      "gclBanner": false
+    },
+    "pImgLocal": "menu_more",
+    "sImgLocal": "menu_more_on",
+    "type": "menu"
+  }
+]
