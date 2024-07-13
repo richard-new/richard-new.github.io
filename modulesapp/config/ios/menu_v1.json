@@ -57,7 +57,7 @@
         "default": false,
         "uiView": "SignInPage",
         "params": {},
-        "pImgLocal": "",
+        "pImgLocal": "menu-sign-in",
         "type": "menuitem"
       },
       {
@@ -121,7 +121,7 @@
         "params": {
           "rightArrow": true
         },
-        "pImgLocal": "",
+        "pImgLocal": "menu-contact-form",
         "type": "menuitem"
       },
       {
@@ -189,7 +189,7 @@
           "rightArrow": true,
           "hideBrowserControls": true
         },
-        "pImgLocal": "",
+        "pImgLocal": "menu-terms-and-conditions",
         "type": "menuitem"
       },
       {
@@ -204,7 +204,7 @@
           "rightArrow": true,
           "hideBrowserControls": true
         },
-        "pImgLocal": "",
+        "pImgLocal": "menu-privacy-policy",
         "type": "menuitem"
       },
       {
@@ -232,7 +232,7 @@
         "params": {
           "rightArrow": true
         },
-        "pImgLocal": "",
+        "pImgLocal": "menu-mobile-app-developing",
         "type": "menuitem"
       },
       {
@@ -252,7 +252,7 @@
       {
         "id": "footer",
         "access": "all",
-        "title": "",
+        "title": "@abkey/app.ui.settings.copyright",
         "params": {},
         "type": "footer"
       }
