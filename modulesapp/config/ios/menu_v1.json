@@ -79,7 +79,7 @@
         "default": false,
         "uiView": "LocalStationPage",
         "params": {},
-        "pImgLocal": "",
+        "pImgLocal": "menu-mountain-road",
         "type": "menuitem"
       },
       {
@@ -108,7 +108,7 @@
           "rightArrow": true,
           "hideBrowserControls": true
         },
-        "pImgLocal": "",
+        "pImgLocal": "menu-invitation",
         "type": "menuitem"
       },
       {
