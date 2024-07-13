@@ -83,11 +83,18 @@
         "type": "menuitem"
       },
       {
+        "id": "separator",
+        "access": "all",
+        "title": "",
+        "params": {},
+        "type": "separator"
+      },
+      {
         "id": "separatorHelp",
         "access": "all",
         "title": "@abkey/MenuSeparatorHelp",
         "params": {},
-        "type": "separator"
+        "type": "section"
       },
       {
         "id": "faq",
@@ -118,11 +125,18 @@
         "type": "menuitem"
       },
       {
+        "id": "separator",
+        "access": "all",
+        "title": "",
+        "params": {},
+        "type": "separator"
+      },
+      {
         "id": "separatorMore",
         "access": "all",
         "title": "@abkey/MenuSeparatorMore",
         "params": {},
-        "type": "separator"
+        "type": "section"
       },
       {
         "id": "languageSelection",
