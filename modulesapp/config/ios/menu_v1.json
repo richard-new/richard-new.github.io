@@ -208,21 +208,6 @@
         "type": "menuitem"
       },
       {
-        "id": "informationProtection",
-        "access": "all",
-        "trackingTag": "",
-        "title": "@abkey/MenuInformationProtection",
-        "default": false,
-        "uiView": "WebviewPage",
-        "params": {
-            "url": "nl.app.informationprotection",
-            "rightArrow": true,
-            "hideBrowserControls": true
-        },
-        "pImgLocal": "",
-        "type": "menuitem"
-      },
-      {
         "id": "appInfo",
         "access": "all",
         "trackingTag": "nl.tracking.appinfo",
@@ -233,20 +218,6 @@
           "rightArrow": true
         },
         "pImgLocal": "menu-mobile-app-developing",
-        "type": "menuitem"
-      },
-      {
-        "id": "ProductServicePatents",
-        "access": "all",
-        "trackingTag": "nl.tracking.productservicepatents",
-        "title": "@abkey/MenuProductServicePatents",
-        "default": false,
-        "uiView": "WebviewPage",
-        "params": {
-          "rightArrow": true,
-          "hideBrowserControls": true
-        },
-        "pImgLocal": "",
         "type": "menuitem"
       },
       {
