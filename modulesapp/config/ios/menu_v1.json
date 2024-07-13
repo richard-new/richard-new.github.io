@@ -67,7 +67,9 @@
         "title": "@abkey/MenuSignOut",
         "default": false,
         "uiView": "SignOutPage",
-        "params": {},
+        "params": {
+            "rightArrow": true
+        },
         "pImgLocal": "",
         "type": "menuitem"
       },
