@@ -92,7 +92,7 @@
         "default": false,
         "uiView": "YTBroadcastPage",
         "params": {},
-        "pImgLocal": "menu-mountain-road",
+        "pImgLocal": "",
         "type": "menuitem"
       },
       {
