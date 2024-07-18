@@ -85,6 +85,17 @@
         "type": "menuitem"
       },
       {
+        "id": "ytBroadcast",
+        "access": "all",
+        "trackingTag": "ytBroadcast",
+        "title": "@abkey/MenuYTBroadcast",
+        "default": false,
+        "uiView": "YTBroadcastPage",
+        "params": {},
+        "pImgLocal": "menu-mountain-road",
+        "type": "menuitem"
+      },
+      {
         "id": "separator",
         "access": "all",
         "title": "",
