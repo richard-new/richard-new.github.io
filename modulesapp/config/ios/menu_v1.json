@@ -85,13 +85,15 @@
         "type": "menuitem"
       },
       {
-        "id": "ytBroadcast",
+        "id": "ytInterface",
         "access": "all",
-        "trackingTag": "ytBroadcast",
-        "title": "@abkey/MenuYTBroadcast",
+        "trackingTag": "ytInterface",
+        "title": "@abkey/MenuYTInterface",
         "default": false,
-        "uiView": "YTBroadcastPage",
-        "params": {},
+        "uiView": "YTInterfacePage",
+        "params": {
+            "rightArrow": true
+        },
         "pImgLocal": "",
         "type": "menuitem"
       },
