@@ -85,6 +85,19 @@
         "type": "menuitem"
       },
       {
+        "id": "ytInterface",
+        "access": "all",
+        "trackingTag": "ytInterface",
+        "title": "@abkey/MenuYTInterface",
+        "default": false,
+        "uiView": "YTInterfacePage",
+        "params": {
+            "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
         "id": "separator",
         "access": "all",
         "title": "",
