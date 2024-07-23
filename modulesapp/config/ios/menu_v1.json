@@ -85,6 +85,17 @@
         "type": "menuitem"
       },
       {
+        "id": "pushSetting",
+        "access": "all",
+        "trackingTag": "pushSetting",
+        "title": "@abkey/MenuPushSetting",
+        "default": false,
+        "uiView": "PushSettingPage",
+        "params": {},
+        "pImgLocal": "menu-notification-bell",
+        "type": "menuitem"
+      },
+      {
         "id": "ytInterface",
         "access": "all",
         "trackingTag": "ytInterface",
