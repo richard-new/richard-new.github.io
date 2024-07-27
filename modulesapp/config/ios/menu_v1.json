@@ -109,6 +109,19 @@
         "type": "menuitem"
       },
       {
+        "id": "fbInterface",
+        "access": "all",
+        "trackingTag": "fbInterface",
+        "title": "@abkey/MenuFBInterface",
+        "default": false,
+        "uiView": "FBInterfacePage",
+        "params": {
+            "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
         "id": "separator",
         "access": "all",
         "title": "",
