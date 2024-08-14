@@ -5,6 +5,10 @@
       "url": "https://richard-new.github.io/modulesapp/assets/localization/language_en.txt"
     },
     {
+      "abid": "ab.feed.menu",
+      "url": "https://richard-new.github.io/modulesapp/config/ios/menu_v1.json"
+    },
+    {
       "abid": "ab.web.privacy.policy",
       "url": "https://watchmarquee.com/doc/embed/privacy-policy.html?inpage=true"
     },
@@ -17,7 +21,7 @@
       "url": "https://watchmarquee.com/doc/embed/copyrights.html?inpage=true"
     },
     {
-      "abid": "ab.web.about.powermega",
+      "abid": "ab.web.about.modules",
       "url": "https://watchmarquee.com/doc/embed/copyrights.html?inpage=true"
     },
     {
@@ -85,7 +89,14 @@
       }
     },
     {
-      "abid": "ad.app.ads",
+      "abid": "ab.service.products",
+      "params": {
+        "AppleSkuPrefix": "com.sportsphere.playcard.iap.nonconsumable",
+        "GoogleSkuPrefix": "com.sportsphere.playcard.iap.nonconsumable"
+      }
+    },
+    {
+      "abid": "ab.app.ads",
       "params": {
         "interstitialBegin": 30,
         "interstitialRecur": 180,
@@ -101,6 +112,8 @@
     "ios": [
       
     ]
+  },
+  "language": {
   },
   "redirect": {
     "individuals": [

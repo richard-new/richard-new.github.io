@@ -89,7 +89,14 @@
       }
     },
     {
-      "abid": "ad.app.ads",
+      "abid": "ab.service.products",
+      "params": {
+        "AppleSkuPrefix": "com.sportsphere.playcard.iap.nonconsumable",
+        "GoogleSkuPrefix": "com.sportsphere.playcard.iap.nonconsumable"
+      }
+    },
+    {
+      "abid": "ab.app.ads",
       "params": {
         "interstitialBegin": 30,
         "interstitialRecur": 180,
