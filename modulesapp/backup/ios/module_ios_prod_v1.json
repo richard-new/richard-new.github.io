@@ -89,6 +89,26 @@
       }
     },
     {
+      "abid": "ab.service.admob.adunits",
+      "params": {
+        "ios": {
+          "adaptive": "ca-app-pub-9465537777226412/7804521603",
+          "adaptive2": "ca-app-pub-9465537777226412/7804521603",
+          "300x250": "ca-app-pub-9465537777226412/7588799183",
+          "interstitial": "ca-app-pub-9465537777226412/4869661729",
+          "native": "ca-app-pub-9465537777226412/2021180997",
+          "appopen": "ca-app-pub-9465537777226412/5932505845"
+        },
+        "android": {
+          "adaptive": "ca-app-pub-9465537777226412/4200218512",
+          "300x250": "ca-app-pub-9465537777226412/2799716671",
+          "interstitial": "ca-app-pub-9465537777226412/1560972100",
+          "native": "ca-app-pub-9465537777226412/2434461572",
+          "appopen": "ca-app-pub-9465537777226412/8233583167"
+        }
+      }
+    },
+    {
       "abid": "ab.service.products",
       "params": {
         "AppleNonConsumableSkuPrefix": "com.sportsphere.playcard.iap.nonconsumable",
