@@ -111,10 +111,10 @@
     {
       "abid": "ab.service.products",
       "params": {
-        "AppleNonConsumableSkuPrefix": "com.sportsphere.playcard.iap.nonconsumable",
-        "GoogleNonConsumableSkuPrefix": "com.sportsphere.playcard.iap.nonconsumable",
-        "AppleConsumableSkuPrefix": "com.sportsphere.playcard.iap.consumable",
-        "GoogleConsumableSkuPrefix": "com.sportsphere.playcard.iap.consumable"
+        "AppleNonConsumableSkuPrefix": "com.planetbinc.playercard.iap.cs",
+        "GoogleNonConsumableSkuPrefix": "com.planetbinc.playercard.iap.cs",
+        "AppleConsumableSkuPrefix": "com.planetbinc.playercard.iap.cs",
+        "GoogleConsumableSkuPrefix": "com.planetbinc.playercard.iap.cs"
       }
     },
     {
