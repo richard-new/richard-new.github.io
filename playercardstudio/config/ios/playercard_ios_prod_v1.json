@@ -2,27 +2,27 @@
   "settings": [
     {
       "abid": "ab.feed.localization",
-      "url": "https://richard-new.github.io/sportsphere/assets/localization/language_en.txt"
+      "url": "https://richard-new.github.io/playercardstudio/assets/localization/language_en.txt"
     },
     {
       "abid": "ab.feed.menu",
-      "url": "https://richard-new.github.io/sportsphere/config/ios/menu_v1.json"
+      "url": "https://richard-new.github.io/playercardstudio/config/ios/menu_v1.json"
     },
     {
       "abid": "ab.web.privacy.policy",
-      "url": "https://richard-new.github.io/sportsphere/doc/embed/privacy-policy.html?inpage=true"
+      "url": "https://richard-new.github.io/playercardstudio/doc/embed/privacy-policy.html?inpage=true"
     },
     {
       "abid": "ab.web.terms.conditions",
-      "url": "https://richard-new.github.io/sportsphere/doc/embed/terms-conditions.html?inpage=true"
+      "url": "https://richard-new.github.io/playercardstudio/doc/embed/terms-conditions.html?inpage=true"
     },
     {
       "abid": "ab.web.share.welcome",
-      "url": "https://richard-new.github.io/sportsphere/doc/embed/copyrights.html?inpage=true"
+      "url": "https://richard-new.github.io/playercardstudio/doc/embed/copyrights.html?inpage=true"
     },
     {
       "abid": "ab.web.about.modules",
-      "url": "https://richard-new.github.io/sportsphere/doc/embed/copyrights.html?inpage=true"
+      "url": "https://richard-new.github.io/playercardstudio/doc/embed/copyrights.html?inpage=true"
     },
     {
       "abid": "ab.service.youtube",
