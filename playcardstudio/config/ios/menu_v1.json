@@ -1,0 +1,279 @@
+[
+  {
+    "params": {},
+    "id": "homePage",
+    "trackingTag": "home",
+    "title": "@abkey/MenuHome",
+    "default": true,
+    "uiView": "HomePage",
+    "pImgLocal": "menu_browse",
+    "sImgLocal": "menu_browse_on",
+    "type": "menuitem"
+  },
+  {
+    "id": "liveTvPage",
+    "trackingTag": "livetv",
+    "title": "@abkey/MenuLiveTv",
+    "default": false,
+    "uiView": "LiveTvPage",
+    "params": {},
+    "pImgLocal": "menu_livetv",
+    "sImgLocal": "menu_livetv_on",
+    "type": "menuitem"
+  },
+  {
+    "id": "showsPage",
+    "trackingTag": "shows",
+    "title": "@abkey/MenuShows",
+    "default": false,
+    "uiView": "ShowsPage",
+    "params": {},
+    "pImgLocal": "menu_shows",
+    "sImgLocal": "menu_shows_on",
+    "type": "menuitem"
+  },
+  {
+    "id": "starPage",
+    "trackingTag": "star",
+    "title": "@abkey/MenuStar",
+    "default": false,
+    "uiView": "StarPage",
+    "params": {},
+    "pImgLocal": "menu_movies",
+    "sImgLocal": "menu_movies_on",
+    "type": "menuitem"
+  },
+  {
+    "id": "moreMenu",
+    "trackingTag": "more",
+    "title": "@abkey/MenuMore",
+    "default": false,
+    "items": [
+      {
+        "id": "signIn",
+        "access": "notlogin",
+        "trackingTag": "signIn",
+        "title": "@abkey/MenuSignIn",
+        "default": false,
+        "uiView": "SignInPage",
+        "params": {
+            "rightArrow": true
+        },
+        "pImgLocal": "menu-sign-in",
+        "type": "menuitem"
+      },
+      {
+        "id": "signOut",
+        "access": "login",
+        "trackingTag": "signOut",
+        "title": "@abkey/MenuSignOut",
+        "default": false,
+        "uiView": "SignOutPage",
+        "params": {},
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "localStation",
+        "access": "all",
+        "trackingTag": "localStation",
+        "title": "@abkey/MenuLocalStation",
+        "default": false,
+        "uiView": "LocalStationPage",
+        "params": {},
+        "pImgLocal": "menu-mountain-road",
+        "type": "menuitem"
+      },
+      {
+        "id": "pushSetting",
+        "access": "all",
+        "trackingTag": "pushSetting",
+        "title": "@abkey/MenuPushSetting",
+        "default": false,
+        "uiView": "PushSettingPage",
+        "params": {},
+        "pImgLocal": "menu-notification-bell",
+        "type": "menuitem"
+      },
+      {
+        "id": "ytInterface",
+        "access": "all",
+        "trackingTag": "ytInterface",
+        "title": "@abkey/MenuYTInterface",
+        "default": false,
+        "uiView": "YTInterfacePage",
+        "params": {
+            "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "fbInterface",
+        "access": "all",
+        "trackingTag": "fbInterface",
+        "title": "@abkey/MenuFBInterface",
+        "default": false,
+        "uiView": "FBInterfacePage",
+        "params": {
+            "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "separator",
+        "access": "all",
+        "title": "",
+        "params": {},
+        "type": "separator"
+      },
+      {
+        "id": "separatorHelp",
+        "access": "all",
+        "title": "@abkey/MenuSeparatorHelp",
+        "params": {},
+        "type": "section"
+      },
+      {
+        "id": "faq",
+        "access": "all",
+        "trackingTag": "nl.tracking.faq",
+        "title": "@abkey/MenuFAQ",
+        "default": false,
+        "uiView": "WebviewPage",
+        "params": {
+          "url": "ab.web.share.welcome",
+          "rightArrow": true,
+          "hideBrowserControls": true
+        },
+        "pImgLocal": "menu-invitation",
+        "type": "menuitem"
+      },
+      {
+        "id": "emailUS",
+        "access": "all",
+        "trackingTag": "email",
+        "title": "@abkey/MenuEmailUS",
+        "default": false,
+        "uiView": "EmailUSPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "menu-contact-form",
+        "type": "menuitem"
+      },
+      {
+        "id": "separator",
+        "access": "all",
+        "title": "",
+        "params": {},
+        "type": "separator"
+      },
+      {
+        "id": "separatorMore",
+        "access": "all",
+        "title": "@abkey/MenuSeparatorMore",
+        "params": {},
+        "type": "section"
+      },
+      {
+        "id": "languageSelection",
+        "access": "vip",
+        "trackingTag": "languageSelection",
+        "title": "@abkey/MenuAppLanguageSelection",
+        "default": false,
+        "uiView": "AppLanguageSelectionPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "regionSelection",
+        "access": "vip",
+        "trackingTag": "regionSelection",
+        "title": "@abkey/MenuAppRegionSelection",
+        "default": false,
+        "uiView": "AppRegionSelectionPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "videoQuality",
+        "access": "vip",
+        "trackingTag": "videoQuality",
+        "title": "@abkey/MenuAppVideoQuality",
+        "default": false,
+        "uiView": "AppVideoQualityPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
+      {
+        "id": "tos",
+        "access": "all",
+        "trackingTag": "nl.tracking.tos",
+        "title": "@abkey/MenuTOS",
+        "default": false,
+        "uiView": "WebviewPage",
+        "params": {
+          "url": "ab.web.terms.conditions",
+          "rightArrow": true,
+          "hideBrowserControls": true
+        },
+        "pImgLocal": "menu-terms-and-conditions",
+        "type": "menuitem"
+      },
+      {
+        "id": "privacy",
+        "access": "all",
+        "trackingTag": "nl.tracking.privacypolicy",
+        "title": "@abkey/MenuPrivacy",
+        "default": false,
+        "uiView": "WebviewPage",
+        "params": {
+          "url": "ab.web.privacy.policy",
+          "rightArrow": true,
+          "hideBrowserControls": true
+        },
+        "pImgLocal": "menu-privacy-policy",
+        "type": "menuitem"
+      },
+      {
+        "id": "appInfo",
+        "access": "all",
+        "trackingTag": "nl.tracking.appinfo",
+        "title": "@abkey/MenuAppInfo",
+        "default": false,
+        "uiView": "AppInfoPage",
+        "params": {
+          "rightArrow": true
+        },
+        "pImgLocal": "menu-mobile-app-developing",
+        "type": "menuitem"
+      },
+      {
+        "id": "footer",
+        "access": "all",
+        "title": "@abkey/app.ui.settings.copyright",
+        "params": {},
+        "type": "footer"
+      }
+    ],
+    "uiView": "MorePage",
+    "params": {
+      "gclTeam": false,
+      "gclBanner": false
+    },
+    "pImgLocal": "menu_more",
+    "sImgLocal": "menu_more_on",
+    "type": "menu"
+  }
+]

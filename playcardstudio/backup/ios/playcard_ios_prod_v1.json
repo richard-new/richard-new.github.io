@@ -1,0 +1,168 @@
+{
+  "settings": [
+    {
+      "abid": "ab.feed.localization",
+      "url": "https://richard-new.github.io/sportsphere/assets/localization/language_en.txt"
+    },
+    {
+      "abid": "ab.feed.menu",
+      "url": "https://richard-new.github.io/sportsphere/config/ios/menu_v1.json"
+    },
+    {
+      "abid": "ab.web.privacy.policy",
+      "url": "https://richard-new.github.io/sportsphere/doc/embed/privacy-policy.html?inpage=true"
+    },
+    {
+      "abid": "ab.web.terms.conditions",
+      "url": "https://richard-new.github.io/sportsphere/doc/embed/terms-conditions.html?inpage=true"
+    },
+    {
+      "abid": "ab.web.share.welcome",
+      "url": "https://richard-new.github.io/sportsphere/doc/embed/copyrights.html?inpage=true"
+    },
+    {
+      "abid": "ab.web.about.modules",
+      "url": "https://richard-new.github.io/sportsphere/doc/embed/copyrights.html?inpage=true"
+    },
+    {
+      "abid": "ab.service.youtube",
+      "params": {
+        "thumbnails": {
+          "img_320x180": "https://img.youtube.com/vi/${ytvid}/mqdefault.jpg",
+          "img_480x360": "https://img.youtube.com/vi/${ytvid}/hqdefault.jpg",
+          "img_640x480": "https://img.youtube.com/vi/${ytvid}/sddefault.jpg",
+          "img_1280x720": "https://img.youtube.com/vi/${ytvid}/maxresdefault.jpg"
+        },
+        "pbdp_img": "img_640x480"
+      }
+    },
+    {
+      "abid": "ab.service.geo",
+      "url": "http://ip-api.com/json",
+      "params": {
+        "url": "https://ipapi.co/json"
+      }
+    },
+    {
+      "abid": "ab.app.settings",
+      "params": {
+        "ytvSizeNotes": "1280x720, 640x360, 320x240",
+        "supportAtt": true,
+        "debugLog": false
+      }
+    },
+    {
+      "abid": "ab.app.messaging",
+      "params": {
+        "title": "@abkey/ab.app.messaging.title",
+        "message": "@abkey/ab.app.messaging.body",
+        "forceUpgrade": false,
+        "upgradeUrl": "https://itunes.apple.com/app/id149705818611"
+      },
+      "enabled": false
+    },
+    {
+      "abid": "ab.app.info",
+      "params": {
+        "email": {
+          "to": "info@test.net",
+          "subject": "User Feedbacks"
+        }
+      }
+    },
+    {
+      "abid": "ab.app.rating",
+      "params": {
+        "enabled": true,
+        "selected": true,
+        "rateOpen": "2021-12-15T00:00:03.000Z",
+        "daysUsed": 7,
+        "appOpens": 5,
+        "registed": true,
+        "reminder": 7
+      }
+    },
+    {
+      "abid": "ab.service.interval",
+      "params": {
+        "default": 60
+      }
+    },
+    {
+      "abid": "ab.service.admob.adunits",
+      "params": {
+        "ios": {
+          "adaptive": "ca-app-pub-7526882407618262/3619512624",
+          "adaptive2": "ca-app-pub-7526882407618262/8945256847",
+          "300x250": "ca-app-pub-7526882407618262/7145090015",
+          "interstitial": "ca-app-pub-7526882407618262/7203534414",
+          "native": "ca-app-pub-7526882407618262/4518926679",
+          "appopen": "ca-app-pub-7526882407618262/7175614256",
+          "reward": "ca-app-pub-7526882407618262/3100637871",
+          "rewardinter": "ca-app-pub-7526882407618262/7722409162"
+        },
+        "android": {
+          "adaptive": "ca-app-pub-7526882407618262/8435890882",
+          "adaptive2": "ca-app-pub-7526882407618262/9773857439",
+          "300x250": "ca-app-pub-7526882407618262/4304138402",
+          "interstitial": "ca-app-pub-7526882407618262/2991056730",
+          "native": "ca-app-pub-7526882407618262/2225969086",
+          "appopen": "ca-app-pub-7526882407618262/9364893399",
+          "reward": "ca-app-pub-7526882407618262/7969821177",
+          "rewardinter": "ca-app-pub-7526882407618262/7286724075"
+        }
+      }
+    },
+    {
+      "abid": "ab.service.products",
+      "params": {
+        "AppleNonConsumableSkuPrefix": "com.planetbinc.playercard.iap.cs",
+        "GoogleNonConsumableSkuPrefix": "com.planetbinc.playercard.iap.cs",
+        "AppleConsumableSkuPrefix": "com.planetbinc.playercard.iap.cs",
+        "GoogleConsumableSkuPrefix": "com.planetbinc.playercard.iap.cs"
+      }
+    },
+    {
+      "abid": "ab.app.ads",
+      "params": {
+        "interstitialBegin": 30,
+        "interstitialRecur": 180,
+        "appOpenBegin": 30,
+        "appOpenRecur": 28800
+      }
+    }
+  ],
+  "platform": {
+    "android": [
+      
+    ],
+    "ios": [
+      
+    ]
+  },
+  "language": {
+  },
+  "redirect": {
+    "individuals": [
+      {
+        "url": "https://domain.name/app/config/file.pbi",
+        "deviceId": [
+          "serial-number-in-the-app-info"
+        ],
+        "email": [
+          "a.b@c.com",
+          "x.y@z.com"
+        ]
+      }
+    ],
+    "versions": [
+      {
+        "url": "https://domain.name/app/config/file.pbi",
+        "versions": [
+          "0.2",
+          "^1\\\\.[1-7]$"
+        ]
+      }
+    ]
+  }
+}
