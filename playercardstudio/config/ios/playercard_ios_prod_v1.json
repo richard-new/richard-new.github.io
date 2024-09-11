@@ -9,6 +9,10 @@
       "url": "https://richard-new.github.io/playercardstudio/config/ios/menu_v1.json"
     },
     {
+      "abid": "ab.feed.home",
+      "url": "https://richard-new.github.io/playercardstudio/feed/home-feed-sample.json"
+    },
+    {
       "abid": "ab.web.privacy.policy",
       "url": "https://richard-new.github.io/playercardstudio/doc/embed/privacy-policy.html?inpage=true"
     },

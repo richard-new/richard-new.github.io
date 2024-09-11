@@ -1,0 +1,104 @@
+{
+	"desc": "This is the home feed of the Player Card Studio app.",
+  	"tsutc": "2024-09-08T15:54:24.951Z",
+  	"heros": {
+  		"source": "theitems",
+  		"layout": "hlist",
+  		"style": "square-lg",
+  		"items": [
+            {
+                "title": "Soccer Player",
+                "desc": "The soccer player card template for professional players",
+                "image": "https://domain.name/images/soccer-player.png",
+                "layout": "upper-left",
+                "status": "active"
+            },
+            {
+                "title": "Christmas Card",
+                "desc": "The Christmas greeting card template",
+                "image": "images/christmas-greeting.png",
+                "layout": "center",
+                "status": "pending"
+            }
+        ]
+  	},
+  	"ads": {
+		"source": "admob",
+		"layout": "aptive",
+		"aiu": "ca-app-pub-7526882407618262/8435890882",
+		"iiu": "ca-app-pub-7526882407618262/3619512624"
+  	},
+  	"favorites": {
+  		"source": "database",
+  		"layout": "hlist",
+  		"style": "portrait-md",
+  		"title": "My Favorites",
+  		"items": [
+  			{
+  				"name": "Favorite Templates",
+  				"path": "{userId}/my-favorites"
+  			},
+  			{
+                "name": "My Cards",
+                "path": "{userId}/player-cards"
+            }
+        ]
+  	},
+  	"categories": {
+  		"source": "theitems",
+  		"layout": "hlist",
+  		"style": "landscape-sm",
+  		"title": "Categories",
+  		"more": "https://domain.name/path/see-all.json",
+  		"items": [
+  			{
+			    "categoryId": "0etenAyUrQaYkNe8XswzSVPbjO52",
+			    "name": "Soccer Players",
+			    "description": "A collection of soccer-themed player cards.",
+			    "status": "active",
+			    "image": "images/christmas-greeting.png"
+		    },
+            {
+			    "categoryId": "1bJimsewJVY9hQbMQsuZLzEJCcP2",
+			    "name": "Christmas Greetings",
+			    "description": "A collection of soccer-themed player cards.",
+			    "status": "active",
+			    "image": "images/christmas-greeting.png"
+		    }
+  		]
+  	},
+  	"others1": {
+        "source": "theitems",
+        "layout": "vlist",
+        "style": "mediacard-s1",
+        "title": "Weekly New",
+        "items": [
+            {
+                "title": "News Title 1",
+                "subtitle": "News subtitle or description 1",
+                "image": "images/news/news-1.png",
+                "link": "https://domain.name/news/breaking-news-1.html"
+            },
+            {
+                "title": "News Title 2",
+                "subtitle": "News subtitle or description 2",
+                "image": "https://domain/name/images/news-2.png",
+                "link": "https://domain.name/news/breaking-news-2.html"
+            }
+        ]
+    },
+  	"others2": {
+        "source": "urljson",
+        "layout": "hlist",
+        "style": "portrait-lg",
+        "title": "YouTube videos",
+        "path": "https://domain.name/feeds/weekly-new.json"
+    },
+    "others3": {
+        "source": "storage",
+        "layout": "vlist",
+        "style": "mediacard-s2",
+        "title": "Stories",
+        "path": "feeds/stories.json"
+    }
+}
