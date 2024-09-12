@@ -47,20 +47,6 @@
                 "image": "https://domain.name/images/soccer-player.png",
                 "layout": "upper-left",
                 "status": "active"
-            },
-            {
-                "title": "Soccer Player15",
-                "desc": "The soccer player card template for professional players",
-                "image": "https://domain.name/images/soccer-player.png",
-                "layout": "upper-left",
-                "status": "active"
-            },
-            {
-                "title": "Soccer Player16",
-                "desc": "The soccer player card template for professional players",
-                "image": "https://domain.name/images/soccer-player.png",
-                "layout": "upper-left",
-                "status": "active"
             }
         ]
   	},
