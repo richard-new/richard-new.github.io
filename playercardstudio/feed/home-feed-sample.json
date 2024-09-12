@@ -2,6 +2,7 @@
 	"desc": "This is the home feed of the Player Card Studio app.",
   	"tsutc": "2024-09-08T15:54:24.951Z",
   	"heros": {
+        "identifier": "heros-test",
   		"source": "theitems",
   		"layout": "hlist",
   		"style": "square-lg",
@@ -51,12 +52,14 @@
         ]
   	},
   	"ads": {
+        "identifier": "ads-test",
 		"source": "admob",
 		"layout": "aptive",
 		"aiu": "ca-app-pub-7526882407618262/8435890882",
 		"iiu": "ca-app-pub-7526882407618262/3619512624"
   	},
   	"favorites": {
+        "identifier": "favorites-test",
   		"source": "database",
   		"layout": "hlist",
   		"style": "portrait-md",
@@ -73,6 +76,7 @@
         ]
   	},
   	"categories": {
+        "identifier": "categories-test",
   		"source": "theitems",
   		"layout": "hlist",
   		"style": "landscape-sm",
@@ -96,6 +100,7 @@
   		]
   	},
   	"others1": {
+        "identifier": "others1-test",
         "source": "theitems",
         "layout": "vlist",
         "style": "mediacard-s1",
@@ -116,6 +121,7 @@
         ]
     },
   	"others2": {
+        "identifier": "others2-test",
         "source": "urljson",
         "layout": "hlist",
         "style": "portrait-lg",
@@ -123,6 +129,7 @@
         "path": "https://domain.name/feeds/weekly-new.json"
     },
     "others3": {
+        "identifier": "others3-test",
         "source": "storage",
         "layout": "vlist",
         "style": "mediacard-s2",
