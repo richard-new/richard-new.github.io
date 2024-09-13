@@ -1,139 +1,141 @@
 {
 	"desc": "This is the home feed of the Player Card Studio app.",
   	"tsutc": "2024-09-08T15:54:24.951Z",
-  	"heros": {
-        "identifier": "heros-test",
-  		"source": "theitems",
-  		"layout": "hlist",
-  		"style": "square-lg",
-  		"items": [
-            {
-                "title": "Soccer Player",
-                "desc": "The soccer player card template for professional players",
-                "image": "https://domain.name/images/soccer-player.png",
-                "layout": "upper-left",
-                "status": "active"
+    "content": [
+        {
+            "identifier": "heros-test1",
+            "section": "heros",
+            "source": "theitems",
+            "layout": "hlist",
+            "style": "square-lg",
+            "items": [
+                {
+                    "title": "Soccer Player",
+                    "desc": "The soccer player card template for professional players",
+                    "image": "https://domain.name/images/soccer-player.png",
+                    "layout": "upper-left",
+                    "status": "active",
+                    "link": {
+                        "type": "deeplink",
+                        "path": "cardstudio://template-path"
+                    }
+                },
+                {
+                    "title": "Christmas Card",
+                    "desc": "The Christmas greeting card template",
+                    "image": "images/christmas-greeting.png",
+                    "layout": "center",
+                    "status": "pending",
+                    "link": {
+                        "type": "webview",
+                        "path": "https://promo-page.html"
+                    }
+                }
+            ]
+        },
+        {
+            "identifier": "ads-test1",
+            "section": "ads",
+            "source": "admob",
+            "layout": "banner",
+            "ios": {
+                "au": "ca-app-pub-7526882407618262/3619512624",
+                "size": "adaptive"
             },
-            {
-                "title": "Christmas Card",
-                "desc": "The Christmas greeting card template",
-                "image": "images/christmas-greeting.png",
-                "layout": "center",
-                "status": "pending"
+            "android": {
+                "au": "ca-app-pub-7526882407618262/8435890882",
+                "size": "320x50"
             },
-            {
-                "title": "Soccer Player11",
-                "desc": "The soccer player card template for professional players",
-                "image": "https://domain.name/images/soccer-player.png",
-                "layout": "upper-left",
-                "status": "active"
-            },
-            {
-                "title": "Soccer Player12",
-                "desc": "The soccer player card template for professional players",
-                "image": "https://domain.name/images/soccer-player.png",
-                "layout": "upper-left",
-                "status": "active"
-            },
-            {
-                "title": "Soccer Player13",
-                "desc": "The soccer player card template for professional players",
-                "image": "https://domain.name/images/soccer-player.png",
-                "layout": "upper-left",
-                "status": "active"
-            },
-            {
-                "title": "Soccer Player14",
-                "desc": "The soccer player card template for professional players",
-                "image": "https://domain.name/images/soccer-player.png",
-                "layout": "upper-left",
-                "status": "active"
+            "web": {
+                "source": "adsense",
+                "au": "ca-app-pub-1236882407618789/1235890789"
             }
-        ]
-  	},
-  	"ads": {
-        "identifier": "ads-test",
-		"source": "admob",
-		"layout": "aptive",
-		"aiu": "ca-app-pub-7526882407618262/8435890882",
-		"iiu": "ca-app-pub-7526882407618262/3619512624"
-  	},
-  	"favorites": {
-        "identifier": "favorites-test",
-  		"source": "database",
-  		"layout": "hlist",
-  		"style": "portrait-md",
-  		"title": "My Favorites",
-  		"items": [
-  			{
-  				"name": "Favorite Templates",
-  				"path": "{userId}/my-favorites"
-  			},
-  			{
-                "name": "My Cards",
-                "path": "{userId}/player-cards"
-            }
-        ]
-  	},
-  	"categories": {
-        "identifier": "categories-test",
-  		"source": "theitems",
-  		"layout": "hlist",
-  		"style": "landscape-sm",
-  		"title": "Categories",
-  		"more": "https://domain.name/path/see-all.json",
-  		"items": [
-  			{
-			    "categoryId": "0etenAyUrQaYkNe8XswzSVPbjO52",
-			    "name": "Soccer Players",
-			    "description": "A collection of soccer-themed player cards.",
-			    "status": "active",
-			    "image": "images/christmas-greeting.png"
-		    },
-            {
-			    "categoryId": "1bJimsewJVY9hQbMQsuZLzEJCcP2",
-			    "name": "Christmas Greetings",
-			    "description": "A collection of soccer-themed player cards.",
-			    "status": "active",
-			    "image": "images/christmas-greeting.png"
-		    }
-  		]
-  	},
-  	"others1": {
-        "identifier": "others1-test",
-        "source": "theitems",
-        "layout": "vlist",
-        "style": "mediacard-s1",
-        "title": "Weekly New",
-        "items": [
-            {
-                "title": "News Title 1",
-                "subtitle": "News subtitle or description 1",
-                "image": "images/news/news-1.png",
-                "link": "https://domain.name/news/breaking-news-1.html"
+        },
+        {
+            "identifier": "favorites-test1",
+            "section": "favorites",
+            "source": "database",
+            "layout": "hlist",
+            "style": "portrait-md",
+            "title": "My Favorites",
+            "items": [
+                {
+                    "name": "Favorite Templates",
+                    "path": "{userId}/my-favorites"
+                },
+                {
+                    "name": "My Cards",
+                    "path": "{userId}/player-cards"
+                }
+            ]
+        },
+        {
+            "identifier": "categories-test1",
+            "section": "categories",
+            "source": "theitems",
+            "layout": "hlist",
+            "style": "landscape-sm",
+            "title": "Categories",
+            "more": {
+                "source": "urljson",
+                "path": "https://domain.name/path/see-all.json"
             },
-            {
-                "title": "News Title 2",
-                "subtitle": "News subtitle or description 2",
-                "image": "https://domain/name/images/news-2.png",
-                "link": "https://domain.name/news/breaking-news-2.html"
-            }
-        ]
-    },
-  	"others2": {
-        "identifier": "others2-test",
-        "source": "urljson",
-        "layout": "hlist",
-        "style": "portrait-lg",
-        "title": "YouTube videos",
-        "path": "https://domain.name/feeds/weekly-new.json"
-    },
-    "others3": {
-        "identifier": "others3-test",
-        "source": "storage",
-        "layout": "vlist",
-        "style": "mediacard-s2",
-        "title": "Stories",
-        "path": "feeds/stories.json"
-    }
+            "items": [
+                {
+                    "categoryId": "0etenAyUrQaYkNe8XswzSVPbjO52",
+                    "name": "Soccer Players",
+                    "description": "A collection of soccer-themed player cards.",
+                    "status": "active",
+                    "image": "images/christmas-greeting.png"
+                },
+                {
+                    "categoryId": "1bJimsewJVY9hQbMQsuZLzEJCcP2",
+                    "name": "Christmas Greetings",
+                    "description": "A collection of soccer-themed player cards.",
+                    "status": "active",
+                    "image": "images/christmas-greeting.png"
+                }
+            ]
+        },
+        {
+            "identifier": "others-test1",
+            "section": "others",
+            "source": "theitems",
+            "layout": "vlist",
+            "style": "mediacard-s1",
+            "title": "Weekly New",
+            "items": [
+                {
+                    "title": "News Title 1",
+                    "subtitle": "News subtitle or description 1",
+                    "image": "images/news/news-1.png",
+                    "link": "https://domain.name/news/breaking-news-1.html"
+                },
+                {
+                    "title": "News Title 2",
+                    "subtitle": "News subtitle or description 2",
+                    "image": "https://domain/name/images/news-2.png",
+                    "link": "https://domain.name/news/breaking-news-2.html"
+                }
+            ]
+        },
+        {
+            "identifier": "others-test2",
+            "section": "others",
+            "source": "urljson",
+            "layout": "hlist",
+            "style": "portrait-lg",
+            "title": "YouTube videos",
+            "path": "https://domain.name/feeds/weekly-new.json"
+        },
+        {
+            "identifier": "others-test3",
+            "section": "others",
+            "source": "storage",
+            "layout": "vlist",
+            "style": "mediacard-s2",
+            "title": "Stories",
+            "path": "feeds/stories.json"
+        }
+    ]
 }
