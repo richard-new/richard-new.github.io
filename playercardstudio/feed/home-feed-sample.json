@@ -75,7 +75,35 @@
             "source": "theitems",
             "layout": "hlist",
             "style": "landscape-sm",
-            "title": "Categories",
+            "title": "Categories : Landscape",
+            "more": {
+                "source": "urljson",
+                "path": "https://domain.name/path/see-all.json"
+            },
+            "items": [
+                {
+                    "categoryId": "0etenAyUrQaYkNe8XswzSVPbjO52",
+                    "name": "Soccer Players",
+                    "desc": "A collection of soccer-themed player cards.",
+                    "status": "active",
+                    "image": "images/christmas-greeting.png"
+                },
+                {
+                    "categoryId": "1bJimsewJVY9hQbMQsuZLzEJCcP2",
+                    "name": "Christmas Greetings",
+                    "desc": "A collection of soccer-themed player cards.",
+                    "status": "active",
+                    "image": "images/christmas-greeting.png"
+                }
+            ]
+        },
+        {
+            "identifier": "categories-test2",
+            "section": "categories",
+            "source": "theitems",
+            "layout": "hlist",
+            "style": "portrait-sm",
+            "title": "Categories : Portrait",
             "more": {
                 "source": "urljson",
                 "path": "https://domain.name/path/see-all.json"
