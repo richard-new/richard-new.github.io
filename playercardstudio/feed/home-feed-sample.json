@@ -98,6 +98,24 @@
             ]
         },
         {
+            "identifier": "ads-test2",
+            "section": "ads",
+            "source": "admob",
+            "layout": "native",
+            "ios": {
+                "au": "ca-app-pub-7526882407618262/3619512624",
+                "size": "300x250"
+            },
+            "android": {
+                "au": "ca-app-pub-7526882407618262/8435890882",
+                "size": "320x50"
+            },
+            "web": {
+                "source": "adsense",
+                "au": "ca-app-pub-1236882407618789/1235890789"
+            }
+        },
+        {
             "identifier": "categories-test2",
             "section": "categories",
             "source": "theitems",
