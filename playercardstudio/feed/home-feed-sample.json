@@ -7,7 +7,7 @@
             "section": "heros",
             "source": "theitems",
             "layout": "hlist",
-            "style": "square-lg",
+            "style": "landscape-lg",
             "items": [
                 {
                     "title": "Soccer Player",
