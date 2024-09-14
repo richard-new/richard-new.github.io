@@ -52,38 +52,6 @@
             }
         },
         {
-            "identifier": "heros-test2",
-            "title": "Heros : Landscape",
-            "section": "heros",
-            "source": "theitems",
-            "layout": "hlist",
-            "style": "landscape-lg",
-            "items": [
-                {
-                    "title": "Soccer Player",
-                    "desc": "The soccer player card template for professional players",
-                    "image": "https://domain.name/images/soccer-player.png",
-                    "layout": "upper-left",
-                    "status": "active",
-                    "link": {
-                        "type": "deeplink",
-                        "path": "cardstudio://template-path"
-                    }
-                },
-                {
-                    "title": "Christmas Card",
-                    "desc": "The Christmas greeting card template",
-                    "image": "images/christmas-greeting.png",
-                    "layout": "center",
-                    "status": "pending",
-                    "link": {
-                        "type": "webview",
-                        "path": "https://promo-page.html"
-                    }
-                }
-            ]
-        },
-        {
             "identifier": "favorites-test1",
             "section": "favorites",
             "source": "database",
