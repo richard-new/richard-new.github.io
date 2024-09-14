@@ -84,14 +84,14 @@
                 {
                     "categoryId": "0etenAyUrQaYkNe8XswzSVPbjO52",
                     "name": "Soccer Players",
-                    "description": "A collection of soccer-themed player cards.",
+                    "desc": "A collection of soccer-themed player cards.",
                     "status": "active",
                     "image": "images/christmas-greeting.png"
                 },
                 {
                     "categoryId": "1bJimsewJVY9hQbMQsuZLzEJCcP2",
                     "name": "Christmas Greetings",
-                    "description": "A collection of soccer-themed player cards.",
+                    "desc": "A collection of soccer-themed player cards.",
                     "status": "active",
                     "image": "images/christmas-greeting.png"
                 }
