@@ -1,19 +1,30 @@
 {
 	"desc": "This is the home feed of the Player Card Studio app.",
-  	"tsutc": "2024-09-08T15:54:24.951Z",
+    "version": "0.3",
+  	"tsutc": "2024-09-15T15:54:24.951Z",
     "content": [
         {
-            "identifier": "heros-test1",
             "section": "heros",
             "source": "theitems",
             "layout": "hlist",
-            "style": "landscape-lg",
+            "shape": "square",
+            "format": "large",
+            "status": "active",
             "items": [
                 {
-                    "title": "Soccer Player",
-                    "desc": "The soccer player card template for professional players",
+                    "id": "1234567890-1",
+                    "name": {
+                        "en": "Soccer Player",
+                        "es": "Jugador de Fútbol",
+                        "zh": "足球运动员"
+                    },
+                    "desc": {
+                        "en": "The soccer player card template for professional players",
+                        "es": "La plantilla de tarjeta de jugador de fútbol para jugadores profesionales",
+                        "zh": "适用于职业球员的足球运动员卡片模板"
+                    },
                     "image": "https://domain.name/images/soccer-player.png",
-                    "layout": "upper-left",
+                    "align": "upper-left",
                     "status": "active",
                     "link": {
                         "type": "deeplink",
@@ -21,23 +32,70 @@
                     }
                 },
                 {
-                    "title": "Christmas Card",
-                    "desc": "The Christmas greeting card template",
+                    "id": "1234567890-2",
+                    "name": {
+                        "en": "Christmas Card",
+                        "es": "Tarjeta de Navidad",
+                        "zh": "圣诞贺卡"
+                    },
+                      "desc": {
+                        "en": "The Christmas greeting card template",
+                        "es": "La plantilla de tarjeta de felicitación navideña",
+                        "zh": "圣诞贺卡模板"
+                    },
                     "image": "images/christmas-greeting.png",
-                    "layout": "center",
+                    "align": "center",
                     "status": "pending",
                     "link": {
                         "type": "webview",
                         "path": "https://promo-page.html"
                     }
+                },
+                {
+                    "id": "1234567890-7",
+                    "name": {
+                        "en": "Mid-Autumn Festival Greetings",
+                        "es": "Saludos del Festival de Medio Otoño",
+                        "zh": "中秋节祝福"
+                    },
+                    "desc": {
+                        "en": "A template collection of Mid-Autumn Festival.",
+                        "es": "Una colección de plantillas para el Festival de Medio Otoño.",
+                        "zh": "中秋节模板合集"
+                    },
+                    "image": "images/mid-autumn-festival.png",
+                    "status": "active",
+                    "link": {
+                        "type": "category",
+                        "path": "1bJimsewJVY9hQbMQsuZLzEJCcP2"
+                    }
+                },
+                {
+                    "id": "1234567890-8",
+                    "name": {
+                        "en": "Thanksgiving Greetings Card",
+                        "es": "Tarjeta de Felicitación de Acción de Gracias",
+                        "zh": "感恩节贺卡"
+                    },
+                    "desc": {
+                        "en": "A collection of Thanksgiving-themed cards.",
+                        "es": "Una colección de tarjetas con temática de Acción de Gracias.",
+                        "zh": "感恩节主题卡片合集"
+                    },
+                    "image": "images/thanksgiving-greeting.png",
+                    "status": "active",
+                    "link": {
+                        "type": "template",
+                        "path": "x0msZSqK4f8w9MdkSeuU"
+                    }
                 }
             ]
         },
         {
-            "identifier": "ads-test1",
-            "section": "ads",
+            "section": "ads-1",
             "source": "admob",
             "layout": "banner",
+            "status": "active",
             "ios": {
                 "au": "ca-app-pub-7526882407618262/3619512624",
                 "size": "adaptive"
@@ -52,62 +110,181 @@
             }
         },
         {
-            "identifier": "favorites-test1",
             "section": "favorites",
             "source": "database",
             "layout": "hlist",
-            "style": "portrait-md",
-            "title": "My Favorites",
+            "shape": "portrait",
+            "format": "medium",
+            "status": "active",
+            "title": {
+                "en": "My Favorites",
+                "es": "Mis Favoritos",
+                "zh": "我的收藏"
+            },
             "items": [
                 {
-                    "name": "Favorite Templates",
-                    "path": "{userId}/my-favorites"
+                    "name": {
+                        "en": "Favorite Templates",
+                        "es": "Plantillas Favoritas",
+                        "zh": "收藏的模板"
+                    },
+                    "link": {
+                        "type": "database",
+                        "path": "{userId}/my-favorites"
+                    }
                 },
                 {
-                    "name": "My Cards",
-                    "path": "{userId}/player-cards"
+                    "name": {
+                        "en": "My Cards",
+                        "es": "Mis Tarjetas",
+                        "zh": "我的卡片"
+                    },
+                    "link": {
+                        "type": "database",
+                        "path": "{userId}/player-cards"
+                    }
                 }
             ]
         },
         {
-            "identifier": "categories-test1",
             "section": "categories",
             "source": "theitems",
             "layout": "hlist",
-            "style": "landscape-sm",
-            "title": "Categories : Landscape",
+            "shape": "landscape",
+            "format": "small",
+            "status": "active",
+            "title": {
+                "en": "Categories",
+                "es": "Categorías",
+                "zh": "类别"
+            },
             "more": {
-                "source": "urljson",
+                "type": "urljson",
                 "path": "https://domain.name/path/see-all.json"
             },
             "items": [
                 {
-                    "categoryId": "0etenAyUrQaYkNe8XswzSVPbjO52",
-                    "name": "Soccer Players",
-                    "desc": "A collection of soccer-themed player cards.",
+                    "id": "1234567890-5",
+                    "name": {
+                        "en": "Soccer Players",
+                        "es": "Jugadores de Fútbol",
+                        "zh": "足球运动员"
+                    },
+                    "desc": {
+                        "en": "A collection of soccer-themed player cards.",
+                        "es": "Una colección de tarjetas de jugador con temática de fútbol.",
+                        "zh": "一组以足球为主题的运动员卡片。"
+                    },
+                    "image": "images/soccer-players.png",
+                    "align": "upper-left",
                     "status": "active",
-                    "image": "images/christmas-greeting.png"
+                    "link": {
+                        "type": "deeplink",
+                        "path": "cardstudio://categories/0etenAyUrQaYkNe8XswzSVPbjO52"
+                    }
                 },
                 {
-                    "categoryId": "1bJimsewJVY9hQbMQsuZLzEJCcP2",
-                    "name": "Christmas Greetings",
-                    "desc": "A collection of soccer-themed player cards.",
+                    "id": "1234567890-6",
+                    "name": {
+                        "en": "Christmas Greetings",
+                        "es": "Saludos Navideños",
+                        "zh": "圣诞问候"
+                    },
+                    "desc": {
+                        "en": "A collection of Christmas-themed cards.",
+                        "es": "Una colección de tarjetas con temática navideña.",
+                        "zh": "一组以圣诞节为主题的卡片。"
+                    },
+                    "image": "images/christmas-greeting.png",
                     "status": "active",
-                    "image": "images/christmas-greeting.png"
+                    "link": {
+                        "type": "category",
+                        "path": "1bJimsewJVY9hQbMQsuZLzEJCcP2"
+                    }
                 }
             ]
         },
         {
-            "identifier": "ads-test2",
-            "section": "ads",
+            "section": "weekly-news",
+            "source": "theitems",
+            "layout": "vlist",
+            "shape": "mediacard",
+            "format": "style-1",
+            "status": "active",
+            "title": {
+                "en": "Weekly New",
+                "es": "Novedades Semanales",
+                "zh": "每周新品"
+            },
+            "items": [
+                {
+                    "id": "1234567890-3",
+                    "name": {
+                        "en": "News Title 1",
+                        "es": "Título de Noticia 1",
+                        "zh": "新闻标题 1"
+                    },
+                    "desc": {
+                        "en": "News subtitle or description 1",
+                        "es": "Subtítulo o descripción de la noticia 1",
+                        "zh": "新闻副标题或描述 1"
+                    },
+                    "image": "images/news/news-1.png",
+                    "status": "active",
+                    "link": {
+                        "type": "webview",
+                        "path": "https://domain.name/news/breaking-news-1.html"
+                    }
+                },
+                {
+                    "id": "1234567890-4",
+                    "name": {
+                        "en": "News Title 2",
+                        "es": "Título de Noticia 2",
+                        "zh": "新闻标题 2"
+                    },
+                    "desc": {
+                        "en": "News subtitle or description 2",
+                        "es": "Subtítulo o descripción de la noticia 2",
+                        "zh": "新闻副标题或描述 2"
+                    },
+                    "image": "https://domain/name/images/news-2.png",
+                    "status": "pending",
+                    "link": {
+                        "type": "website",
+                        "path": "https://domain.name/news/breaking-news-2.html"
+                    }
+                }
+            ]
+        },
+        {
+            "section": "youtube-videos",
+            "source": "thelink",
+            "layout": "hlist",
+            "shape": "portrait",
+            "format": "large",
+            "status": "pending",
+            "title": {
+                "en": "YouTube videos",
+                "es": "Videos de YouTube",
+                "zh": "YouTube 视频"
+            },
+            "link": {
+                "type": "urljson",
+                "path": "https://domain.name/feeds/weekly-new.json"
+            }
+        },
+        {
+            "section": "ads-2",
             "source": "admob",
             "layout": "native",
+            "status": "active",
             "ios": {
                 "au": "ca-app-pub-7526882407618262/4518926679",
-                "size": "300x250"
+                "size": "adaptive"
             },
             "android": {
-                "au": "ca-app-pub-7526882407618262/8435890882",
+                "au": "ca-app-pub-7526882407618262/2225969086",
                 "size": "320x50"
             },
             "web": {
@@ -116,72 +293,21 @@
             }
         },
         {
-            "identifier": "categories-test2",
-            "section": "categories",
-            "source": "theitems",
-            "layout": "hlist",
-            "style": "portrait-sm",
-            "title": "Categories : Portrait",
-            "more": {
-                "source": "urljson",
-                "path": "https://domain.name/path/see-all.json"
+            "section": "stories",
+            "source": "thelink",
+            "layout": "vlist",
+            "shape": "mediacard",
+            "format": "style-2",
+            "status": "active",
+            "title": {
+                "en": "Stories",
+                "es": "Historias",
+                "zh": "故事"
             },
-            "items": [
-                {
-                    "categoryId": "0etenAyUrQaYkNe8XswzSVPbjO52",
-                    "name": "Soccer Players",
-                    "desc": "A collection of soccer-themed player cards.",
-                    "status": "active",
-                    "image": "images/christmas-greeting.png"
-                },
-                {
-                    "categoryId": "1bJimsewJVY9hQbMQsuZLzEJCcP2",
-                    "name": "Christmas Greetings",
-                    "desc": "A collection of soccer-themed player cards.",
-                    "status": "active",
-                    "image": "images/christmas-greeting.png"
-                }
-            ]
-        },
-        {
-            "identifier": "others-test1",
-            "section": "others",
-            "source": "theitems",
-            "layout": "vlist",
-            "style": "mediacard-s1",
-            "title": "Weekly New",
-            "items": [
-                {
-                    "title": "News Title 1",
-                    "subtitle": "News subtitle or description 1",
-                    "image": "images/news/news-1.png",
-                    "link": "https://domain.name/news/breaking-news-1.html"
-                },
-                {
-                    "title": "News Title 2",
-                    "subtitle": "News subtitle or description 2",
-                    "image": "https://domain/name/images/news-2.png",
-                    "link": "https://domain.name/news/breaking-news-2.html"
-                }
-            ]
-        },
-        {
-            "identifier": "others-test2",
-            "section": "others",
-            "source": "urljson",
-            "layout": "hlist",
-            "style": "portrait-lg",
-            "title": "YouTube videos",
-            "path": "https://domain.name/feeds/weekly-new.json"
-        },
-        {
-            "identifier": "others-test3",
-            "section": "others",
-            "source": "storage",
-            "layout": "vlist",
-            "style": "mediacard-s2",
-            "title": "Stories",
-            "path": "feeds/stories.json"
+            "link": {
+                "type": "storage",
+                "path": "feeds/stories.json"
+            }
         }
     ]
 }
