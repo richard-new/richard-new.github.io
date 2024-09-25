@@ -100,3 +100,13 @@ app.ui.appinfo.serialnumber = Serial Number
 app.ui.appinfo.IDFA = ID for Advertising
 app.ui.appinfo.notificationtoken = Notification Token
 app.ui.appinfo.timezone = Time Zone
+
+
+[test1]
+key3 = test3
+key4 = test4
+
+[test2]
+key1 = test1
+key3 = test3
+
