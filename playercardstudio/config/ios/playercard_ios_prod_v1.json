@@ -13,7 +13,7 @@
       "url": "https://richard-new.github.io/playercardstudio/feed/home-feed-sample.json"
     },
     {
-      "abid": "ab.feed.category",
+      "abid": "ab.feed.templates",
       "url": "https://richard-new.github.io/playercardstudio/feed/${category_id}.json"
     },
     {
