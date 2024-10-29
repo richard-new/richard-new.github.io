@@ -13,6 +13,10 @@
       "url": "https://richard-new.github.io/playercardstudio/feed/home-feed-sample.json"
     },
     {
+      "abid": "ab.feed.category",
+      "url": "https://richard-new.github.io/playercardstudio/feed/${category_id}.json"
+    },
+    {
       "abid": "ab.web.privacy.policy",
       "url": "https://richard-new.github.io/playercardstudio/doc/embed/privacy-policy.html?inpage=true"
     },
@@ -137,35 +141,22 @@
     }
   ],
   "platform": {
-    "android": [
-      
-    ],
-    "ios": [
-      
-    ]
+    "android": [],
+    "ios": []
   },
-  "language": {
-  },
+  "language": {},
   "redirect": {
     "individuals": [
       {
         "url": "https://domain.name/app/config/file.pbi",
-        "deviceId": [
-          "serial-number-in-the-app-info"
-        ],
-        "email": [
-          "a.b@c.com",
-          "x.y@z.com"
-        ]
+        "deviceId": ["serial-number-in-the-app-info"],
+        "email": ["a.b@c.com", "x.y@z.com"]
       }
     ],
     "versions": [
       {
         "url": "https://domain.name/app/config/file.pbi",
-        "versions": [
-          "0.2",
-          "^1\\\\.[1-7]$"
-        ]
+        "versions": ["0.2", "^1\\\\.[1-7]$"]
       }
     ]
   }
