@@ -246,8 +246,7 @@
     ],
     "uiView": "MorePage",
     "params": {},
-    "pImgLocal": "menu_more_on",
-    "sImgLocal": "menu_more_on",
+    "pImgLocal": "menu-mobile-app-developing",
     "type": "menu"
   }
 ]
