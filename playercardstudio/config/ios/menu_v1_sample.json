@@ -1,55 +1,78 @@
 [
   {
-    "id": "signIn",
-    "access": "notlogin",
-    "trackingTag": "signIn",
-    "title": "@abkey/MenuSignIn",
-    "default": false,
-    "uiView": "SignInPage",
     "params": {},
-    "pImgLocal": "menu-sign-in",
+    "id": "homePage",
+    "trackingTag": "home",
+    "title": "@abkey/MenuHome",
+    "default": true,
+    "uiView": "HomePage",
+    "pImgLocal": "menu_browse",
+    "sImgLocal": "menu_browse_on",
     "type": "menuitem"
   },
   {
-    "id": "myCard",
-    "access": "login",
-    "trackingTag": "myCard",
-    "title": "@abkey/MenuMyCard",
+    "id": "liveTvPage",
+    "trackingTag": "livetv",
+    "title": "@abkey/MenuLiveTv",
     "default": false,
-    "uiView": "MyCardPage",
+    "uiView": "LiveTvPage",
     "params": {},
-    "pImgLocal": "menu-mountain-road",
+    "pImgLocal": "menu_livetv",
+    "sImgLocal": "menu_livetv_on",
     "type": "menuitem"
   },
   {
-    "id": "myDraftBox",
-    "access": "login",
-    "trackingTag": "myDraftBox",
-    "title": "@abkey/MenuMyDraftBox",
+    "id": "showsPage",
+    "trackingTag": "shows",
+    "title": "@abkey/MenuShows",
     "default": false,
-    "uiView": "MyDraftBoxPage",
+    "uiView": "ShowsPage",
     "params": {},
-    "pImgLocal": "menu-contact-form",
+    "pImgLocal": "menu_shows",
+    "sImgLocal": "menu_shows_on",
     "type": "menuitem"
   },
   {
-    "id": "myOrder",
-    "access": "login",
-    "trackingTag": "myOrder",
-    "title": "@abkey/MenuMyOrder",
+    "id": "starPage",
+    "trackingTag": "star",
+    "title": "@abkey/MenuStar",
     "default": false,
-    "uiView": "MmyOrderPage",
+    "uiView": "StarPage",
     "params": {},
-    "pImgLocal": "menu-invitation",
+    "pImgLocal": "menu_movies",
+    "sImgLocal": "menu_movies_on",
     "type": "menuitem"
   },
   {
-    "id": "setting",
-    "trackingTag": "setting",
-    "title": "@abkey/MenuSettingPage",
+    "id": "moreMenu",
+    "trackingTag": "more",
+    "title": "@abkey/MenuMore",
     "default": false,
-    "access": "all",
     "items": [
+      {
+        "id": "signIn",
+        "access": "notlogin",
+        "trackingTag": "signIn",
+        "title": "@abkey/MenuSignIn",
+        "default": false,
+        "uiView": "SignInPage",
+        "params": {
+            "rightArrow": true
+        },
+        "pImgLocal": "menu-sign-in",
+        "type": "menuitem"
+      },
+      {
+        "id": "signOut",
+        "access": "login",
+        "trackingTag": "signOut",
+        "title": "@abkey/MenuSignOut",
+        "default": false,
+        "uiView": "SignOutPage",
+        "params": {},
+        "pImgLocal": "",
+        "type": "menuitem"
+      },
       {
         "id": "localStation",
         "access": "all",
@@ -80,7 +103,7 @@
         "default": false,
         "uiView": "YTInterfacePage",
         "params": {
-          "rightArrow": true
+            "rightArrow": true
         },
         "pImgLocal": "",
         "type": "menuitem"
@@ -93,7 +116,7 @@
         "default": false,
         "uiView": "FBInterfacePage",
         "params": {
-          "rightArrow": true
+            "rightArrow": true
         },
         "pImgLocal": "",
         "type": "menuitem"
@@ -245,8 +268,11 @@
       }
     ],
     "uiView": "MorePage",
-    "params": {},
-    "pImgLocal": "menu_more_on",
+    "params": {
+      "gclTeam": false,
+      "gclBanner": false
+    },
+    "pImgLocal": "menu_more",
     "sImgLocal": "menu_more_on",
     "type": "menu"
   }
