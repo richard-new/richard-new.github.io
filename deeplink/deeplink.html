@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title>Lidom Deeplink</title>
+    <style>
+      body,
+      table {
+        font-family: arial;
+        font-size: 16pt;
+        color: #404040;
+        border-collapse: collapse;
+      }
+      td {
+        border: 1px solid gray;
+        padding: 2px;
+      }
+      p {
+        line-height: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lidom Deeplink Test</h1>
+    <table border="0" style="border: 1px solid gray">
+      <tr>
+        <td><a href="banmabang://launch">banmabang://launch</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="banmabang://games">banmabang://games</a></td>
+        <td>(links to schedule section)</td>
+      </tr>
+      <tr>
+        <td><a href="banmabang://schedule">banmabang://schedule</a></td>
+        <td>(links to schedule section)</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="banmabang://game/licey-at-toros-on-09232016"
+            >banmabang://game/licey-at-toros-on-09232016</a
+          >
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="banmabang://videos">banmabang://videos/</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <a href="banmabang://video/test0923133818"
+            >banmabang://video/test0923133818</a
+          >
+        </td>
+        <td></td>
+      </tr>
+    </table>
+
+    <div>
+      <p><span style="color: red">NOTE:</span></p>
+      <p>
+        Push notification deeplink share the same rule, push notification will
+        has the follow parameters:
+      </p>
+      <p>type/section: games/game/schedule/videos/video</p>
+      <p>id: game-seo-name/program-seo-name</p>
+
+      <p>nllidom://[type]|[section]/[id]</p>
+    </div>
+  </body>
+</html>
